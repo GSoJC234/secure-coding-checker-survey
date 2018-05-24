@@ -1,7 +1,8 @@
 # KISA GuidLine Bug Pattern
 1. SQL 삽입
-- FindBugs
-
+  - FindBugs
+    - CUSTOM_INJECTION
+    
 
 
 
