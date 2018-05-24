@@ -396,3 +396,34 @@
         - [Thread.run() should not be called directly]()
         
 # Non-KISA GuidLine Bug Pattern
+1. 암호화 방식의 잘못된 사용
+    - FindBugs
+        - [WEAK_TRUST_MANAGER]()
+        - [WEAK_HOSTNAME_VERIFIER]()
+        - [STATIC_IV]()
+        - [UNSAFE_HASH_EQUALS]()
+2. 프레임워크의 고유한 프로그래밍 규칙 위반
+    - FindBugs
+        - [JAXWS_ENDPOINT]()
+        - [JAXRS_ENDPOINT]()
+        - [TAPESTRY_ENDPOINT]()
+        - [WICKET_ENDPOINT]()
+        - [STRUTS1_ENDPOINT]()
+        - [STRUTS2_ENDPOINT]()
+        - [SPRING_ENDPOINT]()
+        - [STRUTS_FORM_VALIDATION]()
+        - [ANDROID_BROADCAST]()
+        - [ANDROID_WORLD_WRITABLE]()
+        - [PERMISSIVE_CORS]()
+        - [ANDROID_EXTERNAL_FILE_ACCESS]()
+        - [SCALA_SENSITIVE_DATA_EXPOSURE]()
+    - SonarQube
+        - [Default EJB interceptors should be declared in "ejb-jar.xml]()
+        - [Defined filters should be used]()
+        - ["@RequestMapping" methods should be "public"]()
+        - [Struts validation forms should have unique names]()
+        - [Security constraints should be defined]()
+        - [Non-public methods should not be "@Transactional"]()
+3. 자원부족을 일으킬 수 있는 명령 허용
+4. 코드 삽입
+5. 로그 삽입
