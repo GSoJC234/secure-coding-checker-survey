@@ -2,17 +2,17 @@
 1. SQL 삽입
     - FindBugs
         - [CUSTOM_INJECTION](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_INJECTION)
-        - [SQL_INJECTION]()
-        - [SQL_INJECTION_TURBINE]()
-        - [SQL_INJECTION_HIBERNATE]()
-        - [SQL_INJECTION_JDO]()
-        - [SQL_INJECTION_JPA]()
-        - [SQL_INJECTION_SPRING_JDBC]()
-        - [SQL_INJECTION_JDBC]()
-        - [SCALA_SQL_INJECTION_SLICK]()
-        - [SCALA_SQL_INJECTION_ANORM]()
-        - [SQL_INJECTION_ANDROID]()
-        - [AWS_QUERY_INJECTION]()
+        - [SQL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION)
+        - [SQL_INJECTION_TURBINE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_TURBINE)
+        - [SQL_INJECTION_HIBERNATE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_HIBERNATE)
+        - [SQL_INJECTION_JDO](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDO)
+        - [SQL_INJECTION_JPA](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JPA)
+        - [SQL_INJECTION_SPRING_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC)
+        - [SQL_INJECTION_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC)
+        - [SCALA_SQL_INJECTION_SLICK](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_SLICK)
+        - [SCALA_SQL_INJECTION_ANORM](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_ANORM)
+        - [SQL_INJECTION_ANDROID](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_ANDROID)
+        - [AWS_QUERY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#AWS_QUERY_INJECTION)
         - [SQL: Nonconstant string passed to execute or addBatch method on an SQL statement]()
         - [SQL: A prepared statement is generated from a nonconstant String]()
     - LAPSE+
@@ -21,14 +21,14 @@
         - [SQL binding mechanisms should be used]()
 2. 경로조작 및 자원삽입
     - FindBugs
-        - [PATH_TRAVERSAL_IN]()
-        - [PATH_TRAVERSAL_OUT]()
-        - [SCALA_PATH_TRAVERSAL_IN]()
-        - [STRUTS_FILE_DISCLOSURE]()
-        - [SPRING_FILE_DISCLOSURE]()
-        - [REQUESTDISPATCHER_FILE_DISCLOSURE]()
-        - [EXTERNAL_CONFIG_CONTROL]()
-        - [BEAN_PROPERTY_INJECTION]()
+        - [PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN)
+        - [PATH_TRAVERSAL_OUT](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_OU)
+        - [SCALA_PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#SCALA_PATH_TRAVERSAL_IN)
+        - [STRUTS_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FILE_DISCLOSURE)
+        - [SPRING_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#SPRING_FILE_DISCLOSURE)
+        - [REQUESTDISPATCHER_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#REQUESTDISPATCHER_FILE_DISCLOSURE)
+        - [EXTERNAL_CONFIG_CONTROL](https://find-sec-bugs.github.io/bugs.htm#EXTERNAL_CONFIG_CONTROL)
+        - [BEAN_PROPERTY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#BEAN_PROPERTY_INJECTION)
         - [PT: Absolute path traversal in servlet]()
         - [PT: Relative path traversal in servlet]()
     - LAPSE+
@@ -37,16 +37,16 @@
         - [Dependencies should not have "system" scope]()
 3. 크로스사이트 스크립트
     - FindBugs
-        - [XSS_REQUEST_WRAPPER]()
-        - [JSP_JSTL_OUT]()
-        - [XSS_JSP_PRINT]()
-        - [XSS_SERVLET]()
-        - [ANDROID_GEOLOCATION]()
-        - [ANDROID_WEB_VIEW_JAVASCRIPT]()
-        - [ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE]()
-        - [HTTPONLY_COOKIE]()
-        - [SCALA_XSS_TWIRL]()
-        - [SCALA_XSS_MVC_API]()
+        - [XSS_REQUEST_WRAPPER](https://find-sec-bugs.github.io/bugs.htm#XSS_REQUEST_WRAPPER)
+        - [JSP_JSTL_OUT](https://find-sec-bugs.github.io/bugs.htm#JSP_JSTL_OUT)
+        - [XSS_JSP_PRINT](https://find-sec-bugs.github.io/bugs.htm#XSS_JSP_PRINT)
+        - [XSS_SERVLET](https://find-sec-bugs.github.io/bugs.htm#XSS_SERVLET)
+        - [ANDROID_GEOLOCATION](https://find-sec-bugs.github.io/bugs.htm#ANDROID_GEOLOCATION)
+        - [ANDROID_WEB_VIEW_JAVASCRIPT](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT)
+        - [ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE)
+        - [HTTPONLY_COOKIE](https://find-sec-bugs.github.io/bugs.htm#HTTPONLY_COOKIE)
+        - [SCALA_XSS_TWIRL](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_TWIRL)
+        - [SCALA_XSS_MVC_API](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_MVC_API)
         - [XSS: JSP reflected cross site scripting vulnerability]()
         - [XSS: Servlet reflected cross site scripting vulnerability in error page]()
         - [XSS: Servlet reflected cross site scripting vulnerability]()
@@ -54,59 +54,59 @@
         - [Cross-Site-Scripting(XSS)](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 4. 운영체제 명령어 삽입
     - FindBugs
-        - [COMMAND_INJECTION]()
-        - [SCALA_COMMAND_INJECTION]()
+        - [COMMAND_INJECTION](https://find-sec-bugs.github.io/bugs.htm#COMMAND_INJECTION)
+        - [SCALA_COMMAND_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCALA_COMMAND_INJECTION)
     - LAPSE+
         - [Command Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Values passed to OS commands should be sanitized]()
 5. 위험한 형식 파일 업로드
     - FindBugs
-        - [WEAK_FILENAMEUTILS]()
-        - [FILE_UPLOAD_FILENAME]()
+        - [WEAK_FILENAMEUTILS](https://find-sec-bugs.github.io/bugs.htm#WEAK_FILENAMEUTILS)
+        - [FILE_UPLOAD_FILENAME](https://find-sec-bugs.github.io/bugs.htm#FILE_UPLOAD_FILENAME)
 6. 신뢰되지 않는 URL 주소로 자동접속 연결
     - FindBugs
-        - [UNVALIDATED_REDIRECT]()
-        - [PLAY_UNVALIDATED_REDIRECT]()
-        - [SPRING_UNVALIDATED_REDIRECT]()
+        - [UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#UNVALIDATED_REDIRECT)
+        - [PLAY_UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#PLAY_UNVALIDATED_REDIRECT)
+        - [SPRING_UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#SPRING_UNVALIDATED_REDIRECT)
     - LAPSE+
         - [URL Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 7. XQuery 삽입
     - FindBugs
-        - [XMLStreamReader]()
-        - [XXE_SAXPARSER]()
-        - [XXE_XMLREADER]()
-        - [XXE_DOCUMENT]()
-        - [XXE_DTD_TRANSFORM_FACTORY]()
-        - [XXE_XSLT_TRANSFORM_FACTORY]()
-        - [XML_DECODER]()
-        - [JSP_XSLT]()
-        - [MALICIOUS_XSLT]()
+        - [XMLStreamReader](https://find-sec-bugs.github.io/bugs.htm#XMLStreamReader)
+        - [XXE_SAXPARSER](https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER)
+        - [XXE_XMLREADER](https://find-sec-bugs.github.io/bugs.htm#XXE_XMLREADER)
+        - [XXE_DOCUMENT](https://find-sec-bugs.github.io/bugs.htm#XXE_DOCUMENT)
+        - [XXE_DTD_TRANSFORM_FACTORY](https://find-sec-bugs.github.io/bugs.htm#XXE_DTD_TRANSFORM_FACTORY)
+        - [XXE_XSLT_TRANSFORM_FACTORY](https://find-sec-bugs.github.io/bugs.htm#XXE_XSLT_TRANSFORM_FACTORY)
+        - [XML_DECODER](https://find-sec-bugs.github.io/bugs.htm#XML_DECODER)
+        - [JSP_XSLT](https://find-sec-bugs.github.io/bugs.htm#JSP_XSLT)
+        - [MALICIOUS_XSLT](https://find-sec-bugs.github.io/bugs.htm#MALICIOUS_XSLT)
     - LAPSE+
         - [XML Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 8. XPath 삽입
     - FindBugs
-        - [XPATH_INJECTION]()
+        - [XPATH_INJECTION](https://find-sec-bugs.github.io/bugs.htm#XPATH_INJECTION)
     - LAPSE+
         - [XPath Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 9. LDAP 삽입
     - FindBugs
-        - [LDAP_INJECTION]()
-        - [LDAP_ANONYMOUS]()
-        - [LDAP_ENTRY_POISONING]()
+        - [LDAP_INJECTION](https://find-sec-bugs.github.io/bugs.htm#LDAP_INJECTION)
+        - [LDAP_ANONYMOUS](https://find-sec-bugs.github.io/bugs.htm#LDAP_ANONYMOUS)
+        - [LDAP_ENTRY_POISONING](https://find-sec-bugs.github.io/bugs.htm#LDAP_ENTRY_POISONING)
     - LAPSE+
         - [LDAP Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Values passed to LDAP queries should be sanitized.]()
 10. 크로스사이트 요청 위조
     - FindBugs
-        - [SPRING_CSRF_PROTECTION_DISABLED]()
-        - [SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING]()
+        - [SPRING_CSRF_PROTECTION_DISABLED](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_PROTECTION_DISABLED)
+        - [SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING)
     - PMD
         - [NoUnsanitizedJSPExpression]()
 11. HTTP 응답분할
     - FindBugs
-        - [HTTP_RESPONSE_SPLITTING]()
+        - [HTTP_RESPONSE_SPLITTING](https://find-sec-bugs.github.io/bugs.htm#HTTP_RESPONSE_SPLITTING)
         - [HRS: HTTP Response splitting vulnerability]()
     - LAPSE+
         - [Header Manipulation](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
@@ -114,15 +114,15 @@
 12. 정수형 오버플로우
 13. 보안기능 결정에 사용되는 부적절한 입력값
     - FindBugs
-        - [SERVLET_PARAMETER]()
-        - [SERVLET_CONTENT_TYPE]()
-        - [SERVLET_SERVER_NAME]()
-        - [SERVLET_SESSION_ID]()
-        - [SERVLET_QUERY_STRING]()
-        - [SERVLET_HEADER]()
-        - [SERVLET_HEADER_REFERER]()
-        - [SERVLET_HEADER_USER_AGENT]()
-        - [HTTP_PARAMETER_POLLUTION]()
+        - [SERVLET_PARAMETER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_PARAMETER)
+        - [SERVLET_CONTENT_TYPE](https://find-sec-bugs.github.io/bugs.htm#SERVLET_CONTENT_TYPE)
+        - [SERVLET_SERVER_NAME](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SERVER_NAME)
+        - [SERVLET_SESSION_ID](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SESSION_ID)
+        - [SERVLET_QUERY_STRING](https://find-sec-bugs.github.io/bugs.htm#SERVLET_QUERY_STRING)
+        - [SERVLET_HEADER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER)
+        - [SERVLET_HEADER_REFERER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_REFERER)
+        - [SERVLET_HEADER_USER_AGENT](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_USER_AGENT)
+        - [HTTP_PARAMETER_POLLUTION](https://find-sec-bugs.github.io/bugs.htm#HTTP_PARAMETER_POLLUTION)
     - LAPSE+
         - [Cookie Poisoning](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [Parameter Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
@@ -133,24 +133,24 @@
 14. 메모리 버퍼 오버플로우
 15. 포멧 스트링 삽입
     - FindBugs
-        - [FORMAT_STRING_MANIPULATION]()
+        - [FORMAT_STRING_MANIPULATION](https://find-sec-bugs.github.io/bugs.htm#FORMAT_STRING_MANIPULATION)
 16. 적절한 인증 없는 중요기능 허용
 17. 부적절한 인가
 18. 중요한 자원에 대한 잘못된 권한 설정
 19. 취약한 암호화 알고리즘 사용
     - FindBugs
-        - [WEAK_MESSAGE_DIGEST_MD5]()
-        - [WEAK_MESSAGE_DIGEST_SHA1]()
-        - [SSL_CONTEXT]()
-        - [CUSTOM_MESSAGE_DIGEST]()
-        - [HAZELCAST_SYMMETRIC_ENCRYPTION]()
-        - [NULL_CIPHER]()
-        - [DES_USAGE]()
-        - [TDES_USAGE]()
-        - [RSA_NO_PADDING]()
-        - [ECB_MODE]()
-        - [PADDING_ORACLE]()
-        - [ESAPI_ENCRYPTOR]()
+        - [WEAK_MESSAGE_DIGEST_MD5](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_MD5)
+        - [WEAK_MESSAGE_DIGEST_SHA1](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_SHA1)
+        - [SSL_CONTEXT](https://find-sec-bugs.github.io/bugs.htm#SSL_CONTEXT)
+        - [CUSTOM_MESSAGE_DIGEST](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_MESSAGE_DIGEST)
+        - [HAZELCAST_SYMMETRIC_ENCRYPTION](https://find-sec-bugs.github.io/bugs.htm#HAZELCAST_SYMMETRIC_ENCRYPTION)
+        - [NULL_CIPHER](https://find-sec-bugs.github.io/bugs.htm#NULL_CIPHER)
+        - [DES_USAGE](https://find-sec-bugs.github.io/bugs.htm#DES_USAGE)
+        - [TDES_USAGE](https://find-sec-bugs.github.io/bugs.htm#TDES_USAGE)
+        - [RSA_NO_PADDING](https://find-sec-bugs.github.io/bugs.htm#RSA_NO_PADDING)
+        - [ECB_MODE](https://find-sec-bugs.github.io/bugs.htm#ECB_MODE)
+        - [PADDING_ORACLE](https://find-sec-bugs.github.io/bugs.htm#PADDING_ORACLE)
+        - [ESAPI_ENCRYPTOR](https://find-sec-bugs.github.io/bugs.htm#ESAPI_ENCRYPTOR)
     - SonarQube
         - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used]()
         - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)]()
@@ -161,44 +161,44 @@
 20. 중요정보 평문 저장
 21. 중요정보 평문 전송
     - FindBugs
-        - [DEFAULT_HTTP_CLIENT]()
-        - [UNENCRYPTED_SOCKET]()
-        - [UNENCRYPTED_SERVER_SOCKET]()
-        - [INSECURE_COOKIE]()
-        - [INSECURE_SMTP_SSL]()
+        - [DEFAULT_HTTP_CLIENT](https://find-sec-bugs.github.io/bugs.htm#DEFAULT_HTTP_CLIENT)
+        - [UNENCRYPTED_SOCKET](https://find-sec-bugs.github.io/bugs.htm#UNENCRYPTED_SOCKET)
+        - [UNENCRYPTED_SERVER_SOCKET](https://find-sec-bugs.github.io/bugs.htm#UNENCRYPTED_SERVER_SOCKET)
+        - [INSECURE_COOKIE](https://find-sec-bugs.github.io/bugs.htm#INSECURE_COOKIE)
+        - [INSECURE_SMTP_SSL](https://find-sec-bugs.github.io/bugs.htm#INSECURE_SMTP_SSL)
     - SonarQube
         - [Cookies should be “secure”]()
 22. 하드코드된 비밀번호
     - FindBugs
-        - [HARD_CODE_PASSWORD]()
+        - [HARD_CODE_PASSWORD](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD)
         - [Dm: Hardcoded constant database password]()
         - [Dm: Empty database password]()
     - SonarQube
         - [Credentials should not be hard-coded]()
 23. 충분하지 않은 키 길이 사용
     - FindBugs
-        - [BLOWFISH_KEY_SIZE]()
-        - [RSA_KEY_SIZE]()
+        - [BLOWFISH_KEY_SIZE](https://find-sec-bugs.github.io/bugs.htm#BLOWFISH_KEY_SIZE)
+        - [RSA_KEY_SIZE](https://find-sec-bugs.github.io/bugs.htm#RSA_KEY_SIZE)
 24. 적절하지 않은 난수값 사용
     - FindBugs
-        - [PREDICTABLE_RANDOM]()
-        - [PREDICTABLE_RANDOM_SCALA]()
+        - [PREDICTABLE_RANDOM](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM)
+        - [PREDICTABLE_RANDOM_SCALA](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM_SCALA)
     - SonarQube
         - ["SecureRandom" seeds should not be predictable]()
 25. 취약한 비밀번호 사용
 26. 하드코드된 비밀번호 사용
     - FindBugs
-        - [HARD_CODE_KEY]()
+        - [HARD_CODE_KEY](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_KEY)
 27. 사용자 하드디스크에 저장되는 쿠키를 통한 정보노출
     - FindBugs
-        - [COOKIE_USAGE]()
-        - [COOKIE_PERSISTENT]()
+        - [COOKIE_USAGE](https://find-sec-bugs.github.io/bugs.htm#COOKIE_USAGE)
+        - [COOKIE_PERSISTENT](https://find-sec-bugs.github.io/bugs.htm#COOKIE_PERSISTENT)
         - [HRS: HTTP cookie formed from untrusted input]()
 28. 주석문 안에 포함된 시스템 주요정보
 29. 솔트 없이 일방향 해쉬함수 사용
 30. 무결성 검사 없는 코드 다운로드
     - FindBugs
-        - [JSP_INCLUDE]()
+        - [JSP_INCLUDE](https://find-sec-bugs.github.io/bugs.htm#JSP_INCLUDE)
     - SonarQube
         - [Classes should not be loaded dynamically]()
 31. 반복된 인증시도 제한 기능 부재
