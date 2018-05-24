@@ -342,13 +342,59 @@
         - [Constructor injection should be used instead of field injection]()
         - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals]()
 38. 부적절한 자원 해제
+    - FindBugs
+        - [ODR: Method may fail to close database resource]()
+        - [ODR: Method may fail to close database resource on exception]()
+        - [OS: Method may fail to close stream]()
+        - [OS: Method may fail to close stream on exception]()
+    - PMD
+        - [CloseResource]()
+    - SonarQube
+        - [Resources should be closed]()
+        - [Custom resources should be closed]()
 39. 해제된 자원 사용
 40. 초기화되지 않은 변수 사용
+    - FindBugs
+        - [UR: Uninitialized read of field in constructor]()
+        - [UR: Uninitialized read of field method called from constructor of superclass]()
+    - PMD
+        - [DataflowAnomalyAnalysis]()
+        - [MissingStaticMethodInNonInstantiatableClass]()
 41. 잘못된 세션에 의한 데이터 정보노출
+    - FindBugs
+        - [MSF: Mutable servlet field]()
+    - PMD
+        - [StaticEJBFieldShouldBeFinal]()
+    - SonarQube
+        - [Members of Spring components should be injected]()
+        - [Servlets should not have mutable instance fields]()
 42. 제거되지 않고 남은 디버그 코드
+    - SonarQube
+        - [Web applications should not have a "main" method]()
 43. 시스템 데이터 정보노출
 44. Public 메서드로부터 반환된 Private 배열
+    - FindBugs
+        - [EI: May expose internal representation by returning reference to mutable object]()
+        - [MS: Public static method may expose internal representation by returning array]()
+    - SonarQube
+        - [Mutable members should not be stored or returned directly]()
 45. Private 배열에 Public 데이터 할당
+    - FindBugs
+        - [EI2: May expose internal representation by incorporating reference to mutable object]()
 46. DNS lookup에 의존한 보안결정
 47. 취약한 API 
+    - FindBugs
+        - [Dm: Method invokes System.exit(...)]()
+        - [Dm: Method invokes dangerous method runFinalizersOnExit]()
+    - PMD
+        - [AvoidThreadGroup]()
+        - [DoNotUseThreads]()
+        - [DontCallThreadRun]()
+        - [ProperCloneImplementation]()
+        - [UseNotifyAllInsteadOfNotify]()
+        - [UseProperClassLoader]()
+    - SonarQube
+        - ["File.createTempFile" should not be used to create a directory]()
+        - [Thread.run() should not be called directly]()
+        
 # Non-KISA GuidLine Bug Pattern
