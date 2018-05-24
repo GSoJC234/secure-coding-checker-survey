@@ -16,7 +16,7 @@
         - [SQL: Nonconstant string passed to execute or addBatch method on an SQL statement]()
         - [SQL: A prepared statement is generated from a nonconstant String]()
     - LAPSE+
-        - [SQL Injection]()
+        - [SQL Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [SQL binding mechanisms should be used]()
 2. 경로조작 및 자원삽입
@@ -32,7 +32,7 @@
         - [PT: Absolute path traversal in servlet]()
         - [PT: Relative path traversal in servlet]()
     - LAPSE+
-        - [Path Traversal]()
+        - [Path Traversal](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Dependencies should not have "system" scope]()
 3. 크로스사이트 스크립트
@@ -51,13 +51,13 @@
         - [XSS: Servlet reflected cross site scripting vulnerability in error page]()
         - [XSS: Servlet reflected cross site scripting vulnerability]()
     - LAPSE+
-        - [Cross-Site-Scripting(XSS)]()
+        - [Cross-Site-Scripting(XSS)](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 4. 운영체제 명령어 삽입
     - FindBugs
         - [COMMAND_INJECTION]()
         - [SCALA_COMMAND_INJECTION]()
     - LAPSE+
-        - [Command Injection]()
+        - [Command Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Values passed to OS commands should be sanitized]()
 5. 위험한 형식 파일 업로드
@@ -70,7 +70,7 @@
         - [PLAY_UNVALIDATED_REDIRECT]()
         - [SPRING_UNVALIDATED_REDIRECT]()
     - LAPSE+
-        - [URL Tampering]()
+        - [URL Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 7. XQuery 삽입
     - FindBugs
         - [XMLStreamReader]()
@@ -83,19 +83,19 @@
         - [JSP_XSLT]()
         - [MALICIOUS_XSLT]()
     - LAPSE+
-        - [XML Injection]()
+        - [XML Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 8. XPath 삽입
     - FindBugs
         - [XPATH_INJECTION]()
     - LAPSE+
-        - [XPath Injection]()
+        - [XPath Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 9. LDAP 삽입
     - FindBugs
         - [LDAP_INJECTION]()
         - [LDAP_ANONYMOUS]()
         - [LDAP_ENTRY_POISONING]()
     - LAPSE+
-        - [LDAP Injection]()
+        - [LDAP Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Values passed to LDAP queries should be sanitized.]()
 10. 크로스사이트 요청 위조
@@ -109,8 +109,8 @@
         - [HTTP_RESPONSE_SPLITTING]()
         - [HRS: HTTP Response splitting vulnerability]()
     - LAPSE+
-        - [Header Manipulation]()
-        - [HTTP Response Splitting]()
+        - [Header Manipulation](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [HTTP Response Splitting](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 12. 정수형 오버플로우
 13. 보안기능 결정에 사용되는 부적절한 입력값
     - FindBugs
@@ -124,8 +124,8 @@
         - [SERVLET_HEADER_USER_AGENT]()
         - [HTTP_PARAMETER_POLLUTION]()
     - LAPSE+
-        - [Cookie Poisoning]()
-        - [Parameter Tampering]()
+        - [Cookie Poisoning](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Parameter Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - ["HttpServletRequest.getRequestedSessionId()" should not be used]()
         - [HTTP referers should not be relied on]()
