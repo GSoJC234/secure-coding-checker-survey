@@ -13,8 +13,8 @@
         - [SCALA_SQL_INJECTION_ANORM](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_ANORM)
         - [SQL_INJECTION_ANDROID](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_ANDROID)
         - [AWS_QUERY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#AWS_QUERY_INJECTION)
-        - [SQL: Nonconstant string passed to execute or addBatch method on an SQL statement]()
-        - [SQL: A prepared statement is generated from a nonconstant String]()
+        - [SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE]()
+        - [SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING]()
     - LAPSE+
         - [SQL Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
@@ -29,8 +29,8 @@
         - [REQUESTDISPATCHER_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#REQUESTDISPATCHER_FILE_DISCLOSURE)
         - [EXTERNAL_CONFIG_CONTROL](https://find-sec-bugs.github.io/bugs.htm#EXTERNAL_CONFIG_CONTROL)
         - [BEAN_PROPERTY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#BEAN_PROPERTY_INJECTION)
-        - [PT: Absolute path traversal in servlet]()
-        - [PT: Relative path traversal in servlet]()
+        - [PT_ABSOLUTE_PATH_TRAVERSAL]()
+        - [PT_RELATIVE_PATH_TRAVERSAL]()
     - LAPSE+
         - [Path Traversal](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
@@ -47,9 +47,9 @@
         - [HTTPONLY_COOKIE](https://find-sec-bugs.github.io/bugs.htm#HTTPONLY_COOKIE)
         - [SCALA_XSS_TWIRL](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_TWIRL)
         - [SCALA_XSS_MVC_API](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_MVC_API)
-        - [XSS: JSP reflected cross site scripting vulnerability]()
-        - [XSS: Servlet reflected cross site scripting vulnerability in error page]()
-        - [XSS: Servlet reflected cross site scripting vulnerability]()
+        - [XSS_REQUEST_PARAMETER_TO_JSP_WRITER]()
+        - [XSS_REQUEST_PARAMETER_TO_SEND_ERROR]()
+        - [XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER]()
     - LAPSE+
         - [Cross-Site-Scripting(XSS)](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 4. 운영체제 명령어 삽입
@@ -107,7 +107,7 @@
 11. HTTP 응답분할
     - FindBugs
         - [HTTP_RESPONSE_SPLITTING](https://find-sec-bugs.github.io/bugs.htm#HTTP_RESPONSE_SPLITTING)
-        - [HRS: HTTP Response splitting vulnerability]()
+        - [HRS_REQUEST_PARAMETER_TO_HTTP_HEADER]()
     - LAPSE+
         - [Header Manipulation](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [HTTP Response Splitting](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
@@ -171,8 +171,8 @@
 22. 하드코드된 비밀번호
     - FindBugs
         - [HARD_CODE_PASSWORD](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD)
-        - [Dm: Hardcoded constant database password]()
-        - [Dm: Empty database password]()
+        - [DMI_CONSTANT_DB_PASSWORD]()
+        - [DMI_EMPTY_DB_PASSWORD]()
     - SonarQube
         - [Credentials should not be hard-coded]()
 23. 충분하지 않은 키 길이 사용
@@ -204,50 +204,50 @@
 31. 반복된 인증시도 제한 기능 부재
 32. 경쟁조건: 검사 시점과 사용 시점(TOCTOU)
     - FindBugs
-        - [AT: Sequence of calls to concurrent abstraction may not be atomic]()
-        - [DC: Possible double check of field]
-        - [DC: Possible exposure of partially initialized object]()
-        - [DL: Synchronization on Boolean]()
-        - [DL: Synchronization on boxed primitive]()
-        - [DL: Synchronization on interned String]()
-        - [DL: Synchronization on boxed primitive values]()
-        - [Dm: Monitor wait() called on Condition]()
-        - [Dm: A thread was created using the default empty run method]()
-        - [ESync: Empty synchronized block]()
-        - [IS: Inconsistent synchronization]()
-        - [IS: Field not guarded against concurrent access]()
-        - [JLM: Synchronization performed on Lock]()
-        - [JLM: Synchronization performed on util.concurrent instance]()
-        - [JLM: Using monitor style wait methods on util.concurrent abstraction]()
-        - [LI: Incorrect lazy initialization of static field]()
-        - [LI: Incorrect lazy initialization and update of static field]()
-        - [ML: Synchronization on field in futile attempt to guard that field]()
-        - [ML: Method synchronizes on an updated field]()
-        - [MWN: Mismatched notify()]()
-        - [MWN: Mismatched wait()]()
-        - [NN: Naked notify]()
-        - [No: Using notify() rather than notifyAll()]()
-        - [RS: Class's readObject() method is synchronized]()
-        - [RV: Return value of putIfAbsent ignored, value passed to putIfAbsent reused]()
-        - [Ru: Invokes run on a thread (did you mean to start it instead?)]()
-        - [SC: Constructor invokes Thread.start()]()
-        - [SP: Method spins on field]()
-        - [STCAL: Call to static Calendar]()
-        - [STCAL: Call to static DateFormat]()
-        - [STCAL: Static Calendar field]()
-        - [STCAL: Static DateFormat]()
-        - [SWL: Method calls Thread.sleep() with a lock held]()
-        - [TLW: Wait with two locks held]()
-        - [UG: Unsynchronized get method, synchronized set method]()
-        - [UL: Method does not release lock on all paths]()
-        - [UL: Method does not release lock on all exception paths]()
-        - [UW: Unconditional wait]()
-        - [VO: An increment to a volatile field isn't atomic]()
-        - [VO: A volatile reference to an array doesn't treat the array elements as volatile]()
-        - [WL: Synchronization on getClass rather than class literal]()
-        - [WS: Class's writeObject() method is synchronized but nothing else is]()
-        - [Wa: Condition.await() not in loop]()
-        - [Wa: Wait not in loop]()
+        - [AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION]()
+        - [DC_DOUBLECHECK]
+        - [DC_PARTIALLY_CONSTRUCTED]()
+        - [DL_SYNCHRONIZATION_ON_BOOLEAN]()
+        - [DL_SYNCHRONIZATION_ON_UNSHARED_BOXED_PRIMITIVE]()
+        - [DL_SYNCHRONIZATION_ON_SHARED_CONSTANT]()
+        - [DL_SYNCHRONIZATION_ON_UNSHARED_BOXED_PRIMITIVE]()
+        - [DM_MONITOR_WAIT_ON_CONDITION]()
+        - [DM_USELESS_THREAD]()
+        - [ESync_EMPTY_SYNC]()
+        - [IS2_INCONSISTENT_SYNC]()
+        - [IS_FIELD_NOT_GUARDED]()
+        - [JLM_JSR166_LOCK_MONITORENTER]()
+        - [JLM_JSR166_UTILCONCURRENT_MONITORENTER]()
+        - [JML_JSR166_CALLING_WAIT_RATHER_THAN_AWAIT]()
+        - [LI_LAZY_INIT_STATIC]()
+        - [LI_LAZY_INIT_UPDATE_STATIC]()
+        - [ML_SYNC_ON_FIELD_TO_GUARD_CHANGING_THAT_FIELD]()
+        - [ML_SYNC_ON_UPDATED_FIELD]()
+        - [MWN_MISMATCHED_NOTIFY]()
+        - [MWN_MISMATCHED_WAIT]()
+        - [NN_NAKED_NOTIFY]()
+        - [NO_NOTIFY_NOT_NOTIFYALL]()
+        - [RS_READOBJECT_SYNC]()
+        - [RV_RETURN_VALUE_OF_PUTIFABSENT_IGNORED]()
+        - [RU_INVOKE_RUN]()
+        - [SC_START_IN_CTOR]()
+        - [SP_SPIN_ON_FIELD]()
+        - [STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE]()
+        - [STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE]()
+        - [STCAL_STATIC_CALENDAR_INSTANCE]()
+        - [STCAL_STATIC_SIMPLE_DATE_FORMAT_INSTANCE]()
+        - [SWL_SLEEP_WITH_LOCK_HELD]()
+        - [TLW_TWO_LOCK_WAIT]()
+        - [UG_SYNC_SET_UNSYNC_GET]()
+        - [UL_UNRELEASED_LOCK]()
+        - [UL_UNRELEASED_LOCK_EXCEPTION_PATH]()
+        - [UW_UNCOND_WAIT]()
+        - [VO_VOLATILE_INCREMENT]()
+        - [VO_VOLATILE_REFERENCE_TO_ARRAY]()
+        - [WL_USING_GETCLASS_RATHER_THAN_CLASS_LITERAL]()
+        - [WS_WRITEOBJECT_SYNC]()
+        - [WA_AWAIT_NOT_IN_LOOP]()
+        - [WA_NOT_IN_LOOP]()
     - PMD
         - [AvoidSynchronizedAtMethodLevel]()
         - [AvoidUsingVolatile]()
@@ -266,9 +266,9 @@
         - [Synchronization should not be based on Strings or boxed primitives]()
 33. 종료되지 않은 반복문 또는 재귀함수
     - FindBugs
-        - [IL: A collection is added to itself]()
-        - [IL: An apparent infinite loop]()
-        - [IL: An apparent infinite recursive loop]()
+        - [IL_CONTAINER_ADDED_TO_ITSELF]()
+        - [IL_INFINITE_LOOP]()
+        - [IL_INFINITE_RECURSIVE_LOOP]()
     - PMD
         - [EmptyWhileStmt]()
     - SonarQube
@@ -294,8 +294,8 @@
         - [Exception should not be created without being thrown]()
 36. 부적절한 예외 처리
     - FindBugs
-        - [DE: Method might drop exception]()
-        - [DE: Method might ignore exception]()
+        - [DE_MIGHT_DROP]()
+        - [DE_MIGHT_IGNORE]()
     - PMD
         - [AvoidCatchingNPE]()
         - [AvoidLosingExceptionInformation]()
@@ -305,29 +305,28 @@
         - ["InterruptedException" should not be ignored]()
 37. Null Pointer 역참조
     - FindBugs
-        - [NP: Method with Boolean return type returns explicit null]()
-        - [NP: Clone method may return null]()
-        - [NP: equals() method does not check for null argument]()
-        - [NP: toString method may return null]()
-        - [NP: Null pointer dereference]()
-        - [NP: Null pointer dereference in method on exception path]()N
-        - [NP: Method does not check for null argument]()
-        - [NP: close() invoked on a value that is always null]()
-        - [NP: Null value is guaranteed to be dereferenced]()
-        - [NP: Value is null and guaranteed to be dereferenced on exception path]()
-        - [NP: Non-null field is not initialized]()
-        - [NP: Method call passes null to a non-null parameter]()
-        - [NP: Method may return null, but is declared @Nonnull]()
-        - [NP: A known null value is checked to see if it is an instance of a type]()
-        - [NP: Possible null pointer dereference]()
-        - [NP: Possible null pointer dereference in method on exception path]()
-        - [NP: Method call passes null for non-null parameter]()
-        - [NP: Method call passes null for non-null parameter]()
-        - [NP: Non-virtual method call passes null for non-null parameter]()
-        - [NP: Method with Optional return type returns explicit null]()
-        - [NP: Store of null value into field annotated @Nonnull]()
-        - [NP: Read of unwritten field]()
-        - [NP: Synchronize and null check on the same field]()
+        - [NP_BOOLEAN_RETURN_NULL]()
+        - [NP_CLONE_COULD_RETURN_NULL]()
+        - [NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT]()
+        - [NP_TOSTRING_COULD_RETURN_NULL]()
+        - [NP_ALWAYS_NULL]()
+        - [NP_ALWAYS_NULL_EXCEPTION]()
+        - [NP_ARGUMENT_MIGHT_BE_NULL]()
+        - [NP_CLOSING_NULL]()
+        - [NP_GUARANTEED_DEREF]()
+        - [NP_GUARANTEED_DEREF_ON_EXCEPTION_PATH]()
+        - [NP_NONNULL_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR]()
+        - [NP_NONNULL_PARAM_VIOLATION]()
+        - [NP_NONNULL_RETURN_VIOLATION]()
+        - [NP_NULL_INSTANCEOF]()
+        - [NP_NULL_ON_SOME_PATH]()
+        - [NP_NULL_ON_SOME_PATH_EXCEPTION]()
+        - [NP_NULL_PARAM_DEREF]()
+        - [NP_NULL_PARAM_DEREF_NONVIRTUAL]()
+        - [NP_OPTIONAL_RETURN_NULL]()
+        - [NP_STORE_INTO_NONNULL_FIELD]()
+        - [NP_UNWRITTEN_FIELD]()
+        - [NP_SYNC_AND_NULL_CHECK_FIELD]()
     - PMD
         - [BrokenNullCheck]()
         - [MisplacedNullCheck]()
@@ -343,10 +342,10 @@
         - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals]()
 38. 부적절한 자원 해제
     - FindBugs
-        - [ODR: Method may fail to close database resource]()
+        - [NP_SYNC_AND_NULL_CHECK_FIELD]()
         - [ODR: Method may fail to close database resource on exception]()
-        - [OS: Method may fail to close stream]()
-        - [OS: Method may fail to close stream on exception]()
+        - [ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH]()
+        - [OS_OPEN_STREAM_EXCEPTION_PATH]()
     - PMD
         - [CloseResource]()
     - SonarQube
@@ -355,14 +354,14 @@
 39. 해제된 자원 사용
 40. 초기화되지 않은 변수 사용
     - FindBugs
-        - [UR: Uninitialized read of field in constructor]()
-        - [UR: Uninitialized read of field method called from constructor of superclass]()
+        - [UR_UNINIT_READ]()
+        - [UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR]()
     - PMD
         - [DataflowAnomalyAnalysis]()
         - [MissingStaticMethodInNonInstantiatableClass]()
 41. 잘못된 세션에 의한 데이터 정보노출
     - FindBugs
-        - [MSF: Mutable servlet field]()
+        - [MSF_MUTABLE_SERVLET_FIELD]()
     - PMD
         - [StaticEJBFieldShouldBeFinal]()
     - SonarQube
@@ -374,18 +373,18 @@
 43. 시스템 데이터 정보노출
 44. Public 메서드로부터 반환된 Private 배열
     - FindBugs
-        - [EI: May expose internal representation by returning reference to mutable object]()
-        - [MS: Public static method may expose internal representation by returning array]()
+        - [EI_EXPOSE_REP]()
+        - [MS_EXPOSE_REP]()
     - SonarQube
         - [Mutable members should not be stored or returned directly]()
 45. Private 배열에 Public 데이터 할당
     - FindBugs
-        - [EI2: May expose internal representation by incorporating reference to mutable object]()
+        - [EI_EXPOSE_REP2]()
 46. DNS lookup에 의존한 보안결정
 47. 취약한 API 
     - FindBugs
-        - [Dm: Method invokes System.exit(...)]()
-        - [Dm: Method invokes dangerous method runFinalizersOnExit]()
+        - [DM_EXIT]()
+        - [DM_RUN_FINALIZERS_ON_EXIT]()
     - PMD
         - [AvoidThreadGroup]()
         - [DoNotUseThreads]()
