@@ -248,6 +248,107 @@
         - [WS: Class's writeObject() method is synchronized but nothing else is]()
         - [Wa: Condition.await() not in loop]()
         - [Wa: Wait not in loop]()
-
-
+    - PMD
+        - [AvoidSynchronizedAtMethodLevel]()
+        - [AvoidUsingVolatile]()
+        - [DoubleCheckedLocking]()
+        - [NonThreadSafeSingleton]()
+        - [UnsynchronizedStaticDateFormatter]()
+        - [UseConcurrentHashMap]()
+    - SonarQube
+        - ["wait" should not be called when multiple locks are held]()
+        - [Value-based classes should not be used for locking]()
+        - ["getClass" should not be used for synchronization]()
+        - [Getters and setters should be synchronized in pairs]()
+        - [Non-thread-safe fields should not be static]()
+        - [Blocks should be synchronized on "private final" fields]()
+        - [".equals()" should not be used to test the values of "Atomic" classes]()
+        - [Synchronization should not be based on Strings or boxed primitives]()
+33. 종료되지 않은 반복문 또는 재귀함수
+    - FindBugs
+        - [IL: A collection is added to itself]()
+        - [IL: An apparent infinite loop]()
+        - [IL: An apparent infinite recursive loop]()
+    - PMD
+        - [EmptyWhileStmt]()
+    - SonarQube
+        - [Loops should not be infinite]()
+        - [Double-checked locking should not be used]()
+        - [Locks should be released]()
+34. 오류메시지를 통한 정보노출
+    - SonarQube
+        - [Throwable.printStackTrace(...) should not be called]()
+35. 오류 상황 대응 부재
+    - PMD
+        - [AvoidInstanceofChecksInCatchClause]()
+        - [AvoidLiteralsInIfCondition]()
+        - [CloneThrowsCloneNotSupportedException]()
+        - [DoNotExtendJavaLangThrowable]()
+        - [EmptyCatchBlock]()
+        - [ReturnFromFinallyBlock]()
+    - SonarQube
+        - [Exceptions should not be thrown from servlet methods]()
+        - ["SingleConnectionFactory" instances should be set to "reconnectOnException"]()
+        - ["Iterator.next()" methods should throw "NoSuchElementException"]()
+        - [Return values should not be ignored when they contain the operation status code]()
+        - [Exception should not be created without being thrown]()
+36. 부적절한 예외 처리
+    - FindBugs
+        - [DE: Method might drop exception]()
+        - [DE: Method might ignore exception]()
+    - PMD
+        - [AvoidCatchingNPE]()
+        - [AvoidLosingExceptionInformation]()
+        - [UseCorrectExceptionLogging]()
+        - [DoNotThrowExceptionInFinally]()
+    - SonarQube
+        - ["InterruptedException" should not be ignored]()
+37. Null Pointer 역참조
+    - FindBugs
+        - [NP: Method with Boolean return type returns explicit null]()
+        - [NP: Clone method may return null]()
+        - [NP: equals() method does not check for null argument]()
+        - [NP: toString method may return null]()
+        - [NP: Null pointer dereference]()
+        - [NP: Null pointer dereference in method on exception path]()N
+        - [NP: Method does not check for null argument]()
+        - [NP: close() invoked on a value that is always null]()
+        - [NP: Null value is guaranteed to be dereferenced]()
+        - [NP: Value is null and guaranteed to be dereferenced on exception path]()
+        - [NP: Non-null field is not initialized]()
+        - [NP: Method call passes null to a non-null parameter]()
+        - [NP: Method may return null, but is declared @Nonnull]()
+        - [NP: A known null value is checked to see if it is an instance of a type]()
+        - [NP: Possible null pointer dereference]()
+        - [NP: Possible null pointer dereference in method on exception path]()
+        - [NP: Method call passes null for non-null parameter]()
+        - [NP: Method call passes null for non-null parameter]()
+        - [NP: Non-virtual method call passes null for non-null parameter]()
+        - [NP: Method with Optional return type returns explicit null]()
+        - [NP: Store of null value into field annotated @Nonnull]()
+        - [NP: Read of unwritten field]()
+        - [NP: Synchronize and null check on the same field]()
+    - PMD
+        - [BrokenNullCheck]()
+        - [MisplacedNullCheck]()
+        - [NullAssignment]()
+        - [ReturnEmptyArrayRatherThanNull]()
+        - [UnusedNullCheckInEquals]()
+    - SonarQube
+        - [Optional value should only be accessed after calling isPresent()]()
+        - ["null" should not be used with "Optional"]()
+        - [Null pointers should not be dereferenced]()
+        - ["toString()" and "clone()" methods should not return null]()
+        - [Constructor injection should be used instead of field injection]()
+        - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals]()
+38. 부적절한 자원 해제
+39. 해제된 자원 사용
+40. 초기화되지 않은 변수 사용
+41. 잘못된 세션에 의한 데이터 정보노출
+42. 제거되지 않고 남은 디버그 코드
+43. 시스템 데이터 정보노출
+44. Public 메서드로부터 반환된 Private 배열
+45. Private 배열에 Public 데이터 할당
+46. DNS lookup에 의존한 보안결정
+47. 취약한 API 
 # Non-KISA GuidLine Bug Pattern
