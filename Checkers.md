@@ -425,5 +425,26 @@
         - [Security constraints should be defined]()
         - [Non-public methods should not be "@Transactional"]()
 3. 자원부족을 일으킬 수 있는 명령 허용
+    - FindBugs
+        - [ReDOS]()
+    - SonarQube
+        - [Inappropriate regular expressions should not be used]()
+        - [The value returned from a stream read should be checked]()
 4. 코드 삽입
+    - FindBugs
+        - [SCRIPT_ENGINE_INJECTION]()
+        - [SPEL_INJECTION]()
+        - [EL_INJECTION]()
+        - [OGNL_INJECTION]()
+        - [JSP_SPRING_EVAL]()
+        - [OBJECT_DESERIALIZATION]()
+        - [JACKSON_UNSAFE_DESERIALIZATION]()
+        - [DESERIALIZATION_GADGET]()
+        - [TEMPLATE_INJECTION_VELOCITY]()
+        - [TEMPLATE_INJECTION_FREEMARKER]()
 5. 로그 삽입
+    - FindBugs
+        - [SEAM_LOG_INJECTION]()
+        - [CRLF_INJECTION_LOGS]()
+
+    
