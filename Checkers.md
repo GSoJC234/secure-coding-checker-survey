@@ -18,7 +18,7 @@
     - LAPSE+
         - [SQL Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [SQL binding mechanisms should be used]()
+        - [SQL binding mechanisms should be used](https://rules.sonarsource.com/java/RSPEC-2077)
 2. 경로조작 및 자원삽입
     - FindBugs
         - [PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN)
@@ -34,7 +34,7 @@
     - LAPSE+
         - [Path Traversal](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Dependencies should not have "system" scope]()
+        - [Dependencies should not have "system" scope](https://rules.sonarsource.com/java/RSPEC-3422)
 3. 크로스사이트 스크립트
     - FindBugs
         - [XSS_REQUEST_WRAPPER](https://find-sec-bugs.github.io/bugs.htm#XSS_REQUEST_WRAPPER)
@@ -59,7 +59,7 @@
     - LAPSE+
         - [Command Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Values passed to OS commands should be sanitized]()
+        - [Values passed to OS commands should be sanitized](https://rules.sonarsource.com/java/RSPEC-2076)
 5. 위험한 형식 파일 업로드
     - FindBugs
         - [WEAK_FILENAMEUTILS](https://find-sec-bugs.github.io/bugs.htm#WEAK_FILENAMEUTILS)
@@ -97,7 +97,7 @@
     - LAPSE+
         - [LDAP Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Values passed to LDAP queries should be sanitized.]()
+        - [Values passed to LDAP queries should be sanitized](https://rules.sonarsource.com/java/RSPEC-2078)
 10. 크로스사이트 요청 위조
     - FindBugs
         - [SPRING_CSRF_PROTECTION_DISABLED](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_PROTECTION_DISABLED)
@@ -127,9 +127,9 @@
         - [Cookie Poisoning](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [Parameter Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - ["HttpServletRequest.getRequestedSessionId()" should not be used]()
-        - [HTTP referers should not be relied on]()
-        - [Untrusted data should not be stored in sessions]()
+        - ["HttpServletRequest.getRequestedSessionId()" should not be used](https://rules.sonarsource.com/java/RSPEC-2254)
+        - [HTTP referers should not be relied on](https://rules.sonarsource.com/java/RSPEC-2089)
+        - [Untrusted data should not be stored in sessions](https://rules.sonarsource.com/java/RSPEC-3318)
 14. 메모리 버퍼 오버플로우
 15. 포멧 스트링 삽입
     - FindBugs
@@ -152,12 +152,12 @@
         - [PADDING_ORACLE](https://find-sec-bugs.github.io/bugs.htm#PADDING_ORACLE)
         - [ESAPI_ENCRYPTOR](https://find-sec-bugs.github.io/bugs.htm#ESAPI_ENCRYPTOR)
     - SonarQube
-        - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used]()
-        - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)]()
-        - ["javax.crypto.NullCipher" should not be used for anything other than testing]()
-        - [Only standard cryptographic algorithms should be used]()
-        - [Pseudorandom number generators (PRNGs) should not be used in secure contexts]()
-        - [SHA-1 and Message-Digest hash algorithms should not be used]()
+        - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used](https://rules.sonarsource.com/java/RSPEC-2278)
+        - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)](https://rules.sonarsource.com/java/RSPEC-2277)
+        - ["javax.crypto.NullCipher" should not be used for anything other than testing](https://rules.sonarsource.com/java/RSPEC-2258)
+        - [Only standard cryptographic algorithms should be used](https://rules.sonarsource.com/java/RSPEC-2257)
+        - [Pseudorandom number generators (PRNGs) should not be used in secure contexts](https://rules.sonarsource.com/java/RSPEC-2245)
+        - [SHA-1 and Message-Digest hash algorithms should not be used](https://rules.sonarsource.com/java/RSPEC-2070)
 20. 중요정보 평문 저장
 21. 중요정보 평문 전송
     - FindBugs
@@ -167,14 +167,14 @@
         - [INSECURE_COOKIE](https://find-sec-bugs.github.io/bugs.htm#INSECURE_COOKIE)
         - [INSECURE_SMTP_SSL](https://find-sec-bugs.github.io/bugs.htm#INSECURE_SMTP_SSL)
     - SonarQube
-        - [Cookies should be “secure”]()
+        - [Cookies should be “secure”](https://rules.sonarsource.com/java/RSPEC-2092)
 22. 하드코드된 비밀번호
     - FindBugs
         - [HARD_CODE_PASSWORD](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD)
         - [DMI_CONSTANT_DB_PASSWORD](http://findbugs.sourceforge.net/bugDescriptions.html#DMI_CONSTANT_DB_PASSWORD)
         - [DMI_EMPTY_DB_PASSWORD](http://findbugs.sourceforge.net/bugDescriptions.html#DMI_EMPTY_DB_PASSWORD)
     - SonarQube
-        - [Credentials should not be hard-coded]()
+        - [Credentials should not be hard-coded](https://rules.sonarsource.com/java/RSPEC-2068)
 23. 충분하지 않은 키 길이 사용
     - FindBugs
         - [BLOWFISH_KEY_SIZE](https://find-sec-bugs.github.io/bugs.htm#BLOWFISH_KEY_SIZE)
@@ -184,7 +184,7 @@
         - [PREDICTABLE_RANDOM](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM)
         - [PREDICTABLE_RANDOM_SCALA](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM_SCALA)
     - SonarQube
-        - ["SecureRandom" seeds should not be predictable]()
+        - ["SecureRandom" seeds should not be predictable](https://rules.sonarsource.com/java/RSPEC-4347)
 25. 취약한 비밀번호 사용
 26. 하드코드된 비밀번호 사용
     - FindBugs
@@ -200,7 +200,7 @@
     - FindBugs
         - [JSP_INCLUDE](https://find-sec-bugs.github.io/bugs.htm#JSP_INCLUDE)
     - SonarQube
-        - [Classes should not be loaded dynamically]()
+        - [Classes should not be loaded dynamically](https://rules.sonarsource.com/java/RSPEC-2658)
 31. 반복된 인증시도 제한 기능 부재
 32. 경쟁조건: 검사 시점과 사용 시점(TOCTOU)
     - FindBugs
@@ -256,14 +256,14 @@
         - [UnsynchronizedStaticDateFormatter]()
         - [UseConcurrentHashMap]()
     - SonarQube
-        - ["wait" should not be called when multiple locks are held]()
-        - [Value-based classes should not be used for locking]()
-        - ["getClass" should not be used for synchronization]()
-        - [Getters and setters should be synchronized in pairs]()
-        - [Non-thread-safe fields should not be static]()
-        - [Blocks should be synchronized on "private final" fields]()
-        - [".equals()" should not be used to test the values of "Atomic" classes]()
-        - [Synchronization should not be based on Strings or boxed primitives]()
+        - ["wait" should not be called when multiple locks are held](https://rules.sonarsource.com/java/RSPEC-3046)
+        - [Value-based classes should not be used for locking](https://rules.sonarsource.com/java/RSPEC-3436)
+        - ["getClass" should not be used for synchronization](https://rules.sonarsource.com/java/RSPEC-3067)
+        - [Getters and setters should be synchronized in pairs](https://rules.sonarsource.com/java/RSPEC-2886)
+        - [Non-thread-safe fields should not be static](https://rules.sonarsource.com/java/RSPEC-2885)
+        - [Blocks should be synchronized on "private final" fields](https://rules.sonarsource.com/java/RSPEC-2445)
+        - [".equals()" should not be used to test the values of "Atomic" classes](https://rules.sonarsource.com/java/RSPEC-2204)
+        - [Synchronization should not be based on Strings or boxed primitives](https://rules.sonarsource.com/java/RSPEC-1860)
 33. 종료되지 않은 반복문 또는 재귀함수
     - FindBugs
         - [IL_CONTAINER_ADDED_TO_ITSELF](http://findbugs.sourceforge.net/bugDescriptions.html#IL_CONTAINER_ADDED_TO_ITSELF)
@@ -272,9 +272,9 @@
     - PMD
         - [EmptyWhileStmt]()
     - SonarQube
-        - [Loops should not be infinite]()
-        - [Double-checked locking should not be used]()
-        - [Locks should be released]()
+        - [Loops should not be infinite](https://rules.sonarsource.com/java/RSPEC-2189)
+        - [Double-checked locking should not be used](https://rules.sonarsource.com/java/RSPEC-2168)
+        - [Locks should be released](https://rules.sonarsource.com/java/RSPEC-2222)
 34. 오류메시지를 통한 정보노출
     - SonarQube
         - [Throwable.printStackTrace(...) should not be called]()
@@ -287,11 +287,11 @@
         - [EmptyCatchBlock]()
         - [ReturnFromFinallyBlock]()
     - SonarQube
-        - [Exceptions should not be thrown from servlet methods]()
-        - ["SingleConnectionFactory" instances should be set to "reconnectOnException"]()
-        - ["Iterator.next()" methods should throw "NoSuchElementException"]()
-        - [Return values should not be ignored when they contain the operation status code]()
-        - [Exception should not be created without being thrown]()
+        - [Exceptions should not be thrown from servlet methods](https://rules.sonarsource.com/java/RSPEC-1989)
+        - ["SingleConnectionFactory" instances should be set to "reconnectOnException"](https://rules.sonarsource.com/java/RSPEC-3438)
+        - ["Iterator.next()" methods should throw "NoSuchElementException"](https://rules.sonarsource.com/java/RSPEC-2272)
+        - [Return values should not be ignored when they contain the operation status code](https://rules.sonarsource.com/java/RSPEC-899)
+        - [Exception should not be created without being thrown](https://rules.sonarsource.com/java/RSPEC-3984)
 36. 부적절한 예외 처리
     - FindBugs
         - [DE_MIGHT_DROP](http://findbugs.sourceforge.net/bugDescriptions.html#DE_MIGHT_DROP)
@@ -302,7 +302,7 @@
         - [UseCorrectExceptionLogging]()
         - [DoNotThrowExceptionInFinally]()
     - SonarQube
-        - ["InterruptedException" should not be ignored]()
+        - ["InterruptedException" should not be ignored](https://rules.sonarsource.com/java/RSPEC-2142)
 37. Null Pointer 역참조
     - FindBugs
         - [NP_BOOLEAN_RETURN_NULL](http://findbugs.sourceforge.net/bugDescriptions.html#NP_BOOLEAN_RETURN_NULL)
@@ -334,12 +334,12 @@
         - [ReturnEmptyArrayRatherThanNull]()
         - [UnusedNullCheckInEquals]()
     - SonarQube
-        - [Optional value should only be accessed after calling isPresent()]()
-        - ["null" should not be used with "Optional"]()
-        - [Null pointers should not be dereferenced]()
-        - ["toString()" and "clone()" methods should not return null]()
-        - [Constructor injection should be used instead of field injection]()
-        - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals]()
+        - [Optional value should only be accessed after calling isPresent()](https://rules.sonarsource.com/java/RSPEC-3655)
+        - ["null" should not be used with "Optional"](https://rules.sonarsource.com/java/RSPEC-2789)
+        - [Null pointers should not be dereferenced](https://rules.sonarsource.com/java/RSPEC-2259)
+        - ["toString()" and "clone()" methods should not return null](https://rules.sonarsource.com/java/RSPEC-2225)
+        - [Constructor injection should be used instead of field injection](https://rules.sonarsource.com/java/RSPEC-3306)
+        - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals](https://rules.sonarsource.com/java/RSPEC-1697)
 38. 부적절한 자원 해제
     - FindBugs
         - [NP_SYNC_AND_NULL_CHECK_FIELD](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
@@ -348,8 +348,8 @@
     - PMD
         - [CloseResource]()
     - SonarQube
-        - [Resources should be closed]()
-        - [Custom resources should be closed]()
+        - [Resources should be closed](https://rules.sonarsource.com/java/RSPEC-2095)
+        - [Custom resources should be closed](https://rules.sonarsource.com/java/RSPEC-3546)
 39. 해제된 자원 사용
 40. 초기화되지 않은 변수 사용
     - FindBugs
@@ -364,11 +364,11 @@
     - PMD
         - [StaticEJBFieldShouldBeFinal]()
     - SonarQube
-        - [Members of Spring components should be injected]()
-        - [Servlets should not have mutable instance fields]()
+        - [Members of Spring components should be injected](https://rules.sonarsource.com/java/RSPEC-3749)
+        - [Servlets should not have mutable instance fields](https://rules.sonarsource.com/java/RSPEC-2226)
 42. 제거되지 않고 남은 디버그 코드
     - SonarQube
-        - [Web applications should not have a "main" method]()
+        - [Web applications should not have a "main" method](https://rules.sonarsource.com/java/RSPEC-2653)
 43. 시스템 데이터 정보노출
 44. Public 메서드로부터 반환된 Private 배열
     - FindBugs
@@ -392,8 +392,8 @@
         - [UseNotifyAllInsteadOfNotify]()
         - [UseProperClassLoader]()
     - SonarQube
-        - ["File.createTempFile" should not be used to create a directory]()
-        - [Thread.run() should not be called directly]()
+        - ["File.createTempFile" should not be used to create a directory](https://rules.sonarsource.com/java/RSPEC-2976)
+        - [Thread.run() should not be called directly](https://rules.sonarsource.com/java/RSPEC-1217)
         
 # Non-KISA GuidLine Bug Pattern
 1. 암호화 방식의 잘못된 사용
@@ -418,18 +418,18 @@
         - [ANDROID_EXTERNAL_FILE_ACCESS](https://find-sec-bugs.github.io/bugs.htm#ANDROID_EXTERNAL_FILE_ACCESS)
         - [SCALA_SENSITIVE_DATA_EXPOSURE](https://find-sec-bugs.github.io/bugs.htm#SCALA_SENSITIVE_DATA_EXPOSURE)
     - SonarQube
-        - [Default EJB interceptors should be declared in "ejb-jar.xml]()
-        - [Defined filters should be used]()
-        - ["@RequestMapping" methods should be "public"]()
-        - [Struts validation forms should have unique names]()
-        - [Security constraints should be defined]()
-        - [Non-public methods should not be "@Transactional"]()
+        - [Default EJB interceptors should be declared in "ejb-jar.xml](https://rules.sonarsource.com/java/RSPEC-3281)
+        - [Defined filters should be used](https://rules.sonarsource.com/java/RSPEC-3355)
+        - ["@RequestMapping" methods should be "public"](https://rules.sonarsource.com/java/RSPEC-3751)
+        - [Struts validation forms should have unique names](https://rules.sonarsource.com/java/RSPEC-3374)
+        - [Security constraints should be defined](https://rules.sonarsource.com/java/RSPEC-3369)
+        - [Non-public methods should not be "@Transactional"](https://rules.sonarsource.com/java/RSPEC-2230)
 3. 자원부족을 일으킬 수 있는 명령 허용
     - FindBugs
         - [ReDOS](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
     - SonarQube
-        - [Inappropriate regular expressions should not be used]()
-        - [The value returned from a stream read should be checked]()
+        - [Inappropriate regular expressions should not be used](https://rules.sonarsource.com/java/RSPEC-2639)
+        - [The value returned from a stream read should be checked](https://rules.sonarsource.com/java/RSPEC-2674)
 4. 코드 삽입
     - FindBugs
         - [SCRIPT_ENGINE_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
