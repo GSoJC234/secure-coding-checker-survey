@@ -398,25 +398,25 @@
 # Non-KISA GuidLine Bug Pattern
 1. 암호화 방식의 잘못된 사용
     - FindBugs
-        - [WEAK_TRUST_MANAGER]()
-        - [WEAK_HOSTNAME_VERIFIER]()
-        - [STATIC_IV]()
-        - [UNSAFE_HASH_EQUALS]()
+        - [WEAK_TRUST_MANAGER](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
+        - [WEAK_HOSTNAME_VERIFIER](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
+        - [STATIC_IV](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
+        - [UNSAFE_HASH_EQUALS](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
 2. 프레임워크의 고유한 프로그래밍 규칙 위반
     - FindBugs
-        - [JAXWS_ENDPOINT]()
-        - [JAXRS_ENDPOINT]()
-        - [TAPESTRY_ENDPOINT]()
-        - [WICKET_ENDPOINT]()
-        - [STRUTS1_ENDPOINT]()
-        - [STRUTS2_ENDPOINT]()
-        - [SPRING_ENDPOINT]()
-        - [STRUTS_FORM_VALIDATION]()
-        - [ANDROID_BROADCAST]()
-        - [ANDROID_WORLD_WRITABLE]()
-        - [PERMISSIVE_CORS]()
-        - [ANDROID_EXTERNAL_FILE_ACCESS]()
-        - [SCALA_SENSITIVE_DATA_EXPOSURE]()
+        - [JAXWS_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
+        - [JAXRS_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#JAXRS_ENDPOINT)
+        - [TAPESTRY_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#TAPESTRY_ENDPOINT)
+        - [WICKET_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#WICKET_ENDPOINT)
+        - [STRUTS1_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#STRUTS1_ENDPOINT)
+        - [STRUTS2_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#STRUTS2_ENDPOINT)
+        - [SPRING_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT)
+        - [STRUTS_FORM_VALIDATION](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FORM_VALIDATION)
+        - [ANDROID_BROADCAST](https://find-sec-bugs.github.io/bugs.htm#ANDROID_BROADCAST)
+        - [ANDROID_WORLD_WRITABLE](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WORLD_WRITABLE)
+        - [PERMISSIVE_CORS](https://find-sec-bugs.github.io/bugs.htm#PERMISSIVE_CORS)
+        - [ANDROID_EXTERNAL_FILE_ACCESS](https://find-sec-bugs.github.io/bugs.htm#ANDROID_EXTERNAL_FILE_ACCESS)
+        - [SCALA_SENSITIVE_DATA_EXPOSURE](https://find-sec-bugs.github.io/bugs.htm#SCALA_SENSITIVE_DATA_EXPOSURE)
     - SonarQube
         - [Default EJB interceptors should be declared in "ejb-jar.xml]()
         - [Defined filters should be used]()
@@ -426,25 +426,25 @@
         - [Non-public methods should not be "@Transactional"]()
 3. 자원부족을 일으킬 수 있는 명령 허용
     - FindBugs
-        - [ReDOS]()
+        - [ReDOS](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
     - SonarQube
         - [Inappropriate regular expressions should not be used]()
         - [The value returned from a stream read should be checked]()
 4. 코드 삽입
     - FindBugs
-        - [SCRIPT_ENGINE_INJECTION]()
-        - [SPEL_INJECTION]()
-        - [EL_INJECTION]()
-        - [OGNL_INJECTION]()
-        - [JSP_SPRING_EVAL]()
-        - [OBJECT_DESERIALIZATION]()
-        - [JACKSON_UNSAFE_DESERIALIZATION]()
-        - [DESERIALIZATION_GADGET]()
-        - [TEMPLATE_INJECTION_VELOCITY]()
-        - [TEMPLATE_INJECTION_FREEMARKER]()
+        - [SCRIPT_ENGINE_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
+        - [SPEL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SPEL_INJECTION)
+        - [EL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#EL_INJECTION)
+        - [OGNL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#OGNL_INJECTION)
+        - [JSP_SPRING_EVAL](https://find-sec-bugs.github.io/bugs.htm#JSP_SPRING_EVAL)
+        - [OBJECT_DESERIALIZATION](https://find-sec-bugs.github.io/bugs.htm#OBJECT_DESERIALIZATION)
+        - [JACKSON_UNSAFE_DESERIALIZATION](https://find-sec-bugs.github.io/bugs.htm#JACKSON_UNSAFE_DESERIALIZATION)
+        - [DESERIALIZATION_GADGET](https://find-sec-bugs.github.io/bugs.htm#DESERIALIZATION_GADGET)
+        - [TEMPLATE_INJECTION_VELOCITY](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_VELOCITY)
+        - [TEMPLATE_INJECTION_FREEMARKER](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_FREEMARKER)
 5. 로그 삽입
     - FindBugs
-        - [SEAM_LOG_INJECTION]()
-        - [CRLF_INJECTION_LOGS]()
+        - [SEAM_LOG_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SEAM_LOG_INJECTION)
+        - [CRLF_INJECTION_LOGS](https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS)
 
     
