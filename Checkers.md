@@ -328,108 +328,108 @@
         - [NP_UNWRITTEN_FIELD [21]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_UNWRITTEN_FIELD)
         - [NP_SYNC_AND_NULL_CHECK_FIELD [22]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
     - PMD
-        - [BrokenNullCheck](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#brokennullcheck)
-        - [MisplacedNullCheck](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#misplacednullcheck)
-        - [NullAssignment](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#nullassignment)
-        - [ReturnEmptyArrayRatherThanNull](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#returnemptyarrayratherthannull)
-        - [UnusedNullCheckInEquals](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#unusednullcheckinequals)
+        - [BrokenNullCheck [9]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#brokennullcheck)
+        - [MisplacedNullCheck [9]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#misplacednullcheck)
+        - [NullAssignment [20]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#nullassignment)
+        - [ReturnEmptyArrayRatherThanNull [13]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#returnemptyarrayratherthannull)
+        - [UnusedNullCheckInEquals [3]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#unusednullcheckinequals)
     - SonarQube
-        - [Optional value should only be accessed after calling isPresent()](https://rules.sonarsource.com/java/RSPEC-3655)
-        - ["null" should not be used with "Optional"](https://rules.sonarsource.com/java/RSPEC-2789)
-        - [Null pointers should not be dereferenced](https://rules.sonarsource.com/java/RSPEC-2259)
-        - ["toString()" and "clone()" methods should not return null](https://rules.sonarsource.com/java/RSPEC-2225)
-        - [Constructor injection should be used instead of field injection](https://rules.sonarsource.com/java/RSPEC-3306)
-        - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals](https://rules.sonarsource.com/java/RSPEC-1697)
+        - [Optional value should only be accessed after calling isPresent() [19]](https://rules.sonarsource.com/java/RSPEC-3655)
+        - ["null" should not be used with "Optional" [19]](https://rules.sonarsource.com/java/RSPEC-2789)
+        - [Null pointers should not be dereferenced  [5]](https://rules.sonarsource.com/java/RSPEC-2259)
+        - ["toString()" and "clone()" methods should not return null [13]](https://rules.sonarsource.com/java/RSPEC-2225)
+        - [Constructor injection should be used instead of field injection [21]](https://rules.sonarsource.com/java/RSPEC-3306)
+        - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals [5]](https://rules.sonarsource.com/java/RSPEC-1697)
 38. 부적절한 자원 해제
     - FindBugs
-        - [NP_SYNC_AND_NULL_CHECK_FIELD](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
-        - [ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH](http://findbugs.sourceforge.net/bugDescriptions.html#ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH)
-        - [OS_OPEN_STREAM_EXCEPTION_PATH](http://findbugs.sourceforge.net/bugDescriptions.html#OS_OPEN_STREAM_EXCEPTION_PATH)
+        - [NP_SYNC_AND_NULL_CHECK_FIELD [???]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
+        - [ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH [1]](http://findbugs.sourceforge.net/bugDescriptions.html#ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH)
+        - [OS_OPEN_STREAM_EXCEPTION_PATH [2]](http://findbugs.sourceforge.net/bugDescriptions.html#OS_OPEN_STREAM_EXCEPTION_PATH)
     - PMD
-        - [CloseResource]()
+        - [CloseResource [1]](https://pmd.github.io/pmd-6.4.0/pmd_rules_java_errorprone.html#closeresource)
     - SonarQube
-        - [Resources should be closed](https://rules.sonarsource.com/java/RSPEC-2095)
-        - [Custom resources should be closed](https://rules.sonarsource.com/java/RSPEC-3546)
+        - [Resources should be closed [3]](https://rules.sonarsource.com/java/RSPEC-2095)
+        - [Custom resources should be closed [4]](https://rules.sonarsource.com/java/RSPEC-3546)
 39. 해제된 자원 사용
 40. 초기화되지 않은 변수 사용
     - FindBugs
-        - [UR_UNINIT_READ](http://findbugs.sourceforge.net/bugDescriptions.html#UR_UNINIT_READ)
-        - [UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR](http://findbugs.sourceforge.net/bugDescriptions.html#UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR)
+        - [UR_UNINIT_READ [1]](http://findbugs.sourceforge.net/bugDescriptions.html#UR_UNINIT_READ)
+        - [UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR [2]](http://findbugs.sourceforge.net/bugDescriptions.html#UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR)
     - PMD
-        - [DataflowAnomalyAnalysis](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis)
-        - [MissingStaticMethodInNonInstantiatableClass](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#missingstaticmethodinnoninstantiatableclass)
+        - [DataflowAnomalyAnalysis [1]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis)
+        - [MissingStaticMethodInNonInstantiatableClass [3]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#missingstaticmethodinnoninstantiatableclass)
 41. 잘못된 세션에 의한 데이터 정보노출
     - FindBugs
-        - [MSF_MUTABLE_SERVLET_FIELD](http://findbugs.sourceforge.net/bugDescriptions.html#MSF_MUTABLE_SERVLET_FIELD)
+        - [MSF_MUTABLE_SERVLET_FIELD [1]](http://findbugs.sourceforge.net/bugDescriptions.html#MSF_MUTABLE_SERVLET_FIELD)
     - PMD
-        - [StaticEJBFieldShouldBeFinal](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#staticejbfieldshouldbefinal)
+        - [StaticEJBFieldShouldBeFinal [2]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#staticejbfieldshouldbefinal)
     - SonarQube
-        - [Members of Spring components should be injected](https://rules.sonarsource.com/java/RSPEC-3749)
-        - [Servlets should not have mutable instance fields](https://rules.sonarsource.com/java/RSPEC-2226)
+        - [Members of Spring components should be injected [3]](https://rules.sonarsource.com/java/RSPEC-3749)
+        - [Servlets should not have mutable instance fields [1]](https://rules.sonarsource.com/java/RSPEC-2226)
 42. 제거되지 않고 남은 디버그 코드
     - SonarQube
-        - [Web applications should not have a "main" method](https://rules.sonarsource.com/java/RSPEC-2653)
+        - [Web applications should not have a "main" method [1]](https://rules.sonarsource.com/java/RSPEC-2653)
 43. 시스템 데이터 정보노출
 44. Public 메서드로부터 반환된 Private 배열
     - FindBugs
-        - [EI_EXPOSE_REP](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP)
-        - [MS_EXPOSE_REP](http://findbugs.sourceforge.net/bugDescriptions.html#MS_EXPOSE_REP)
+        - [EI_EXPOSE_REP [1]](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP)
+        - [MS_EXPOSE_REP [2]](http://findbugs.sourceforge.net/bugDescriptions.html#MS_EXPOSE_REP)
     - SonarQube
-        - [Mutable members should not be stored or returned directly](https://rules.sonarsource.com/java/RSPEC-2384)
+        - [Mutable members should not be stored or returned directly [1]](https://rules.sonarsource.com/java/RSPEC-2384)
 45. Private 배열에 Public 데이터 할당
     - FindBugs
-        - [EI_EXPOSE_REP2](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2)
+        - [EI_EXPOSE_REP2 [1]](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2)
 46. DNS lookup에 의존한 보안결정
 47. 취약한 API 
     - FindBugs
-        - [DM_EXIT](http://findbugs.sourceforge.net/bugDescriptions.html#DM_EXIT)
-        - [DM_RUN_FINALIZERS_ON_EXIT](http://findbugs.sourceforge.net/bugDescriptions.html#DM_RUN_FINALIZERS_ON_EXIT)
+        - [DM_EXIT [1]](http://findbugs.sourceforge.net/bugDescriptions.html#DM_EXIT)
+        - [DM_RUN_FINALIZERS_ON_EXIT [2]](http://findbugs.sourceforge.net/bugDescriptions.html#DM_RUN_FINALIZERS_ON_EXIT)
     - PMD
-        - [AvoidThreadGroup](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#avoidthreadgroup)
-        - [DoNotUseThreads](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#donotusethreads)
-        - [DontCallThreadRun](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#dontcallthreadrun)
-        - [ProperCloneImplementation](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#propercloneimplementation)
-        - [UseNotifyAllInsteadOfNotify](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#usenotifyallinsteadofnotify)
-        - [UseProperClassLoader](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#useproperclassloader)
+        - [AvoidThreadGroup [3]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#avoidthreadgroup)
+        - [DoNotUseThreads [4]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#donotusethreads)
+        - [DontCallThreadRun [5]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#dontcallthreadrun)
+        - [ProperCloneImplementation [6]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#propercloneimplementation)
+        - [UseNotifyAllInsteadOfNotify [7]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_multithreading.html#usenotifyallinsteadofnotify)
+        - [UseProperClassLoader [8]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#useproperclassloader)
     - SonarQube
-        - ["File.createTempFile" should not be used to create a directory](https://rules.sonarsource.com/java/RSPEC-2976)
-        - [Thread.run() should not be called directly](https://rules.sonarsource.com/java/RSPEC-1217)
+        - ["File.createTempFile" should not be used to create a directory [9]](https://rules.sonarsource.com/java/RSPEC-2976)
+        - [Thread.run() should not be called directly [5]](https://rules.sonarsource.com/java/RSPEC-1217)
         
 # Non-KISA GuidLine Bug Pattern
 1. 암호화 방식의 잘못된 사용
     - FindBugs
-        - [WEAK_TRUST_MANAGER](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
-        - [WEAK_HOSTNAME_VERIFIER](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
-        - [STATIC_IV](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
-        - [UNSAFE_HASH_EQUALS](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
+        - [WEAK_TRUST_MANAGER [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
+        - [WEAK_HOSTNAME_VERIFIER [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
+        - [STATIC_IV [3]](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
+        - [UNSAFE_HASH_EQUALS [4]](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
 2. 프레임워크의 고유한 프로그래밍 규칙 위반
     - FindBugs
-        - [JAXWS_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
-        - [JAXRS_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#JAXRS_ENDPOINT)
-        - [TAPESTRY_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#TAPESTRY_ENDPOINT)
-        - [WICKET_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#WICKET_ENDPOINT)
-        - [STRUTS1_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#STRUTS1_ENDPOINT)
-        - [STRUTS2_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#STRUTS2_ENDPOINT)
-        - [SPRING_ENDPOINT](https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT)
-        - [STRUTS_FORM_VALIDATION](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FORM_VALIDATION)
-        - [ANDROID_BROADCAST](https://find-sec-bugs.github.io/bugs.htm#ANDROID_BROADCAST)
-        - [ANDROID_WORLD_WRITABLE](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WORLD_WRITABLE)
-        - [PERMISSIVE_CORS](https://find-sec-bugs.github.io/bugs.htm#PERMISSIVE_CORS)
-        - [ANDROID_EXTERNAL_FILE_ACCESS](https://find-sec-bugs.github.io/bugs.htm#ANDROID_EXTERNAL_FILE_ACCESS)
-        - [SCALA_SENSITIVE_DATA_EXPOSURE](https://find-sec-bugs.github.io/bugs.htm#SCALA_SENSITIVE_DATA_EXPOSURE)
+        - [JAXWS_ENDPOINT [1]](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
+        - [JAXRS_ENDPOINT [2]](https://find-sec-bugs.github.io/bugs.htm#JAXRS_ENDPOINT)
+        - [TAPESTRY_ENDPOINT [3]](https://find-sec-bugs.github.io/bugs.htm#TAPESTRY_ENDPOINT)
+        - [WICKET_ENDPOINT [4]](https://find-sec-bugs.github.io/bugs.htm#WICKET_ENDPOINT)
+        - [STRUTS1_ENDPOINT [5]](https://find-sec-bugs.github.io/bugs.htm#STRUTS1_ENDPOINT)
+        - [STRUTS2_ENDPOINT [6]](https://find-sec-bugs.github.io/bugs.htm#STRUTS2_ENDPOINT)
+        - [SPRING_ENDPOINT [7]](https://find-sec-bugs.github.io/bugs.htm#SPRING_ENDPOINT)
+        - [STRUTS_FORM_VALIDATION [8]](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FORM_VALIDATION)
+        - [ANDROID_BROADCAST [9]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_BROADCAST)
+        - [ANDROID_WORLD_WRITABLE [10]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WORLD_WRITABLE)
+        - [PERMISSIVE_CORS [11]](https://find-sec-bugs.github.io/bugs.htm#PERMISSIVE_CORS)
+        - [ANDROID_EXTERNAL_FILE_ACCESS [12]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_EXTERNAL_FILE_ACCESS)
+        - [SCALA_SENSITIVE_DATA_EXPOSURE [13]](https://find-sec-bugs.github.io/bugs.htm#SCALA_SENSITIVE_DATA_EXPOSURE)
     - SonarQube
-        - [Default EJB interceptors should be declared in "ejb-jar.xml](https://rules.sonarsource.com/java/RSPEC-3281)
-        - [Defined filters should be used](https://rules.sonarsource.com/java/RSPEC-3355)
-        - ["@RequestMapping" methods should be "public"](https://rules.sonarsource.com/java/RSPEC-3751)
-        - [Struts validation forms should have unique names](https://rules.sonarsource.com/java/RSPEC-3374)
-        - [Security constraints should be defined](https://rules.sonarsource.com/java/RSPEC-3369)
-        - [Non-public methods should not be "@Transactional"](https://rules.sonarsource.com/java/RSPEC-2230)
+        - [Default EJB interceptors should be declared in "ejb-jar.xml [14]](https://rules.sonarsource.com/java/RSPEC-3281)
+        - [Defined filters should be used [15]](https://rules.sonarsource.com/java/RSPEC-3355)
+        - ["@RequestMapping" methods should be "public" [16]](https://rules.sonarsource.com/java/RSPEC-3751)
+        - [Struts validation forms should have unique names [17]](https://rules.sonarsource.com/java/RSPEC-3374)
+        - [Security constraints should be defined [18]](https://rules.sonarsource.com/java/RSPEC-3369)
+        - [Non-public methods should not be "@Transactional" [19]](https://rules.sonarsource.com/java/RSPEC-2230)
 3. 자원부족을 일으킬 수 있는 명령 허용
     - FindBugs
-        - [ReDOS](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
+        - [ReDOS [1]](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
     - SonarQube
-        - [Inappropriate regular expressions should not be used](https://rules.sonarsource.com/java/RSPEC-2639)
-        - [The value returned from a stream read should be checked](https://rules.sonarsource.com/java/RSPEC-2674)
+        - [Inappropriate regular expressions should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2639)
+        - [The value returned from a stream read should be checked [???]](https://rules.sonarsource.com/java/RSPEC-2674)
 4. 코드 삽입
     - FindBugs
         - [SCRIPT_ENGINE_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
@@ -444,7 +444,7 @@
         - [TEMPLATE_INJECTION_FREEMARKER](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_FREEMARKER)
 5. 로그 삽입
     - FindBugs
-        - [SEAM_LOG_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SEAM_LOG_INJECTION)
-        - [CRLF_INJECTION_LOGS](https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS)
+        - [SEAM_LOG_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#SEAM_LOG_INJECTION)
+        - [CRLF_INJECTION_LOGS [2]](https://find-sec-bugs.github.io/bugs.htm#CRLF_INJECTION_LOGS)
 
     
