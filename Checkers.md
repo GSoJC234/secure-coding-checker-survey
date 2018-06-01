@@ -21,143 +21,143 @@
         - [SQL binding mechanisms should be used [14]](https://rules.sonarsource.com/java/RSPEC-2077)
 2. 경로조작 및 자원삽입
     - FindBugs
-        - [PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN)
-        - [PATH_TRAVERSAL_OUT](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_OU)
-        - [SCALA_PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#SCALA_PATH_TRAVERSAL_IN)
-        - [STRUTS_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FILE_DISCLOSURE)
-        - [SPRING_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#SPRING_FILE_DISCLOSURE)
-        - [REQUESTDISPATCHER_FILE_DISCLOSURE](https://find-sec-bugs.github.io/bugs.htm#REQUESTDISPATCHER_FILE_DISCLOSURE)
-        - [EXTERNAL_CONFIG_CONTROL](https://find-sec-bugs.github.io/bugs.htm#EXTERNAL_CONFIG_CONTROL)
-        - [BEAN_PROPERTY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#BEAN_PROPERTY_INJECTION)
-        - [PT_ABSOLUTE_PATH_TRAVERSAL](http://findbugs.sourceforge.net/bugDescriptions.html#PT_ABSOLUTE_PATH_TRAVERSAL)
-        - [PT_RELATIVE_PATH_TRAVERSAL](http://findbugs.sourceforge.net/bugDescriptions.html#PT_RELATIVE_PATH_TRAVERSAL)
+        - [PATH_TRAVERSAL_IN [1]](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN)
+        - [PATH_TRAVERSAL_OUT [2]](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_OU)
+        - [SCALA_PATH_TRAVERSAL_IN [3]](https://find-sec-bugs.github.io/bugs.htm#SCALA_PATH_TRAVERSAL_IN)
+        - [STRUTS_FILE_DISCLOSURE [4]](https://find-sec-bugs.github.io/bugs.htm#STRUTS_FILE_DISCLOSURE)
+        - [SPRING_FILE_DISCLOSURE [5]](https://find-sec-bugs.github.io/bugs.htm#SPRING_FILE_DISCLOSURE)
+        - [REQUESTDISPATCHER_FILE_DISCLOSURE [6]](https://find-sec-bugs.github.io/bugs.htm#REQUESTDISPATCHER_FILE_DISCLOSURE)
+        - [EXTERNAL_CONFIG_CONTROL [7]](https://find-sec-bugs.github.io/bugs.htm#EXTERNAL_CONFIG_CONTROL)
+        - [BEAN_PROPERTY_INJECTION [8]](https://find-sec-bugs.github.io/bugs.htm#BEAN_PROPERTY_INJECTION)
+        - [PT_ABSOLUTE_PATH_TRAVERSAL [9]](http://findbugs.sourceforge.net/bugDescriptions.html#PT_ABSOLUTE_PATH_TRAVERSAL)
+        - [PT_RELATIVE_PATH_TRAVERSAL [10]](http://findbugs.sourceforge.net/bugDescriptions.html#PT_RELATIVE_PATH_TRAVERSAL)
     - LAPSE+
-        - [Path Traversal](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Path Traversal [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Dependencies should not have "system" scope](https://rules.sonarsource.com/java/RSPEC-3422)
+        - [Dependencies should not have "system" scope [11]](https://rules.sonarsource.com/java/RSPEC-3422)
 3. 크로스사이트 스크립트
     - FindBugs
-        - [XSS_REQUEST_WRAPPER](https://find-sec-bugs.github.io/bugs.htm#XSS_REQUEST_WRAPPER)
-        - [JSP_JSTL_OUT](https://find-sec-bugs.github.io/bugs.htm#JSP_JSTL_OUT)
-        - [XSS_JSP_PRINT](https://find-sec-bugs.github.io/bugs.htm#XSS_JSP_PRINT)
-        - [XSS_SERVLET](https://find-sec-bugs.github.io/bugs.htm#XSS_SERVLET)
-        - [ANDROID_GEOLOCATION](https://find-sec-bugs.github.io/bugs.htm#ANDROID_GEOLOCATION)
-        - [ANDROID_WEB_VIEW_JAVASCRIPT](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT)
-        - [ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE)
-        - [HTTPONLY_COOKIE](https://find-sec-bugs.github.io/bugs.htm#HTTPONLY_COOKIE)
-        - [SCALA_XSS_TWIRL](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_TWIRL)
-        - [SCALA_XSS_MVC_API](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_MVC_API)
-        - [XSS_REQUEST_PARAMETER_TO_JSP_WRITER](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_JSP_WRITER)
-        - [XSS_REQUEST_PARAMETER_TO_SEND_ERROR](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_SEND_ERROR)
-        - [XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER)
+        - [XSS_REQUEST_WRAPPER [1]](https://find-sec-bugs.github.io/bugs.htm#XSS_REQUEST_WRAPPER)
+        - [JSP_JSTL_OUT [2]](https://find-sec-bugs.github.io/bugs.htm#JSP_JSTL_OUT)
+        - [XSS_JSP_PRINT [3]](https://find-sec-bugs.github.io/bugs.htm#XSS_JSP_PRINT)
+        - [XSS_SERVLET [4]](https://find-sec-bugs.github.io/bugs.htm#XSS_SERVLET)
+        - [ANDROID_GEOLOCATION [5]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_GEOLOCATION)
+        - [ANDROID_WEB_VIEW_JAVASCRIPT [6]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT)
+        - [ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE [7]](https://find-sec-bugs.github.io/bugs.htm#ANDROID_WEB_VIEW_JAVASCRIPT_INTERFACE)
+        - [HTTPONLY_COOKIE [8]](https://find-sec-bugs.github.io/bugs.htm#HTTPONLY_COOKIE)
+        - [SCALA_XSS_TWIRL [9]](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_TWIRL)
+        - [SCALA_XSS_MVC_API [10]](https://find-sec-bugs.github.io/bugs.htm#SCALA_XSS_MVC_API)
+        - [XSS_REQUEST_PARAMETER_TO_JSP_WRITER [11]](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_JSP_WRITER)
+        - [XSS_REQUEST_PARAMETER_TO_SEND_ERROR [12]](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_SEND_ERROR)
+        - [XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER [13]](http://findbugs.sourceforge.net/bugDescriptions.html#XSS_REQUEST_PARAMETER_TO_SERVLET_WRITER)
     - LAPSE+
-        - [Cross-Site-Scripting(XSS)](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Cross-Site-Scripting(XSS) [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 4. 운영체제 명령어 삽입
     - FindBugs
-        - [COMMAND_INJECTION](https://find-sec-bugs.github.io/bugs.htm#COMMAND_INJECTION)
-        - [SCALA_COMMAND_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCALA_COMMAND_INJECTION)
+        - [COMMAND_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#COMMAND_INJECTION)
+        - [SCALA_COMMAND_INJECTION [2]](https://find-sec-bugs.github.io/bugs.htm#SCALA_COMMAND_INJECTION)
     - LAPSE+
-        - [Command Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Command Injection [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Values passed to OS commands should be sanitized](https://rules.sonarsource.com/java/RSPEC-2076)
+        - [Values passed to OS commands should be sanitized [1]](https://rules.sonarsource.com/java/RSPEC-2076)
 5. 위험한 형식 파일 업로드
     - FindBugs
-        - [WEAK_FILENAMEUTILS](https://find-sec-bugs.github.io/bugs.htm#WEAK_FILENAMEUTILS)
-        - [FILE_UPLOAD_FILENAME](https://find-sec-bugs.github.io/bugs.htm#FILE_UPLOAD_FILENAME)
+        - [WEAK_FILENAMEUTILS [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_FILENAMEUTILS)
+        - [FILE_UPLOAD_FILENAME [2]](https://find-sec-bugs.github.io/bugs.htm#FILE_UPLOAD_FILENAME)
 6. 신뢰되지 않는 URL 주소로 자동접속 연결
     - FindBugs
-        - [UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#UNVALIDATED_REDIRECT)
-        - [PLAY_UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#PLAY_UNVALIDATED_REDIRECT)
-        - [SPRING_UNVALIDATED_REDIRECT](https://find-sec-bugs.github.io/bugs.htm#SPRING_UNVALIDATED_REDIRECT)
+        - [UNVALIDATED_REDIRECT [1]](https://find-sec-bugs.github.io/bugs.htm#UNVALIDATED_REDIRECT)
+        - [PLAY_UNVALIDATED_REDIRECT [2]](https://find-sec-bugs.github.io/bugs.htm#PLAY_UNVALIDATED_REDIRECT)
+        - [SPRING_UNVALIDATED_REDIRECT [3]](https://find-sec-bugs.github.io/bugs.htm#SPRING_UNVALIDATED_REDIRECT)
     - LAPSE+
-        - [URL Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [URL Tampering [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 7. XQuery 삽입
     - FindBugs
-        - [XMLStreamReader](https://find-sec-bugs.github.io/bugs.htm#XMLStreamReader)
-        - [XXE_SAXPARSER](https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER)
-        - [XXE_XMLREADER](https://find-sec-bugs.github.io/bugs.htm#XXE_XMLREADER)
-        - [XXE_DOCUMENT](https://find-sec-bugs.github.io/bugs.htm#XXE_DOCUMENT)
-        - [XXE_DTD_TRANSFORM_FACTORY](https://find-sec-bugs.github.io/bugs.htm#XXE_DTD_TRANSFORM_FACTORY)
-        - [XXE_XSLT_TRANSFORM_FACTORY](https://find-sec-bugs.github.io/bugs.htm#XXE_XSLT_TRANSFORM_FACTORY)
-        - [XML_DECODER](https://find-sec-bugs.github.io/bugs.htm#XML_DECODER)
-        - [JSP_XSLT](https://find-sec-bugs.github.io/bugs.htm#JSP_XSLT)
-        - [MALICIOUS_XSLT](https://find-sec-bugs.github.io/bugs.htm#MALICIOUS_XSLT)
+        - [XMLStreamReader [1]](https://find-sec-bugs.github.io/bugs.htm#XMLStreamReader)
+        - [XXE_SAXPARSER [2]](https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER)
+        - [XXE_XMLREADER [3]](https://find-sec-bugs.github.io/bugs.htm#XXE_XMLREADER)
+        - [XXE_DOCUMENT [4]](https://find-sec-bugs.github.io/bugs.htm#XXE_DOCUMENT)
+        - [XXE_DTD_TRANSFORM_FACTORY [5]](https://find-sec-bugs.github.io/bugs.htm#XXE_DTD_TRANSFORM_FACTORY)
+        - [XXE_XSLT_TRANSFORM_FACTORY [6]](https://find-sec-bugs.github.io/bugs.htm#XXE_XSLT_TRANSFORM_FACTORY)
+        - [XML_DECODER [7]](https://find-sec-bugs.github.io/bugs.htm#XML_DECODER)
+        - [JSP_XSLT [8]](https://find-sec-bugs.github.io/bugs.htm#JSP_XSLT)
+        - [MALICIOUS_XSLT [9]](https://find-sec-bugs.github.io/bugs.htm#MALICIOUS_XSLT)
     - LAPSE+
-        - [XML Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [XML Injection [4]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 8. XPath 삽입
     - FindBugs
-        - [XPATH_INJECTION](https://find-sec-bugs.github.io/bugs.htm#XPATH_INJECTION)
+        - [XPATH_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#XPATH_INJECTION)
     - LAPSE+
-        - [XPath Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [XPath Injection [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 9. LDAP 삽입
     - FindBugs
-        - [LDAP_INJECTION](https://find-sec-bugs.github.io/bugs.htm#LDAP_INJECTION)
-        - [LDAP_ANONYMOUS](https://find-sec-bugs.github.io/bugs.htm#LDAP_ANONYMOUS)
-        - [LDAP_ENTRY_POISONING](https://find-sec-bugs.github.io/bugs.htm#LDAP_ENTRY_POISONING)
+        - [LDAP_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#LDAP_INJECTION)
+        - [LDAP_ANONYMOUS [2]](https://find-sec-bugs.github.io/bugs.htm#LDAP_ANONYMOUS)
+        - [LDAP_ENTRY_POISONING [3]](https://find-sec-bugs.github.io/bugs.htm#LDAP_ENTRY_POISONING)
     - LAPSE+
-        - [LDAP Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [LDAP Injection [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [Values passed to LDAP queries should be sanitized](https://rules.sonarsource.com/java/RSPEC-2078)
+        - [Values passed to LDAP queries should be sanitized [1]](https://rules.sonarsource.com/java/RSPEC-2078)
 10. 크로스사이트 요청 위조
     - FindBugs
-        - [SPRING_CSRF_PROTECTION_DISABLED](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_PROTECTION_DISABLED)
-        - [SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING)
+        - [SPRING_CSRF_PROTECTION_DISABLED [1]](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_PROTECTION_DISABLED)
+        - [SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING [2]](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING)
     - PMD
-        - [NoUnsanitizedJSPExpression](https://pmd.github.io/pmd-6.3.0/pmd_rules_jsp_security.html#nounsanitizedjspexpression)
+        - [NoUnsanitizedJSPExpression [3]](https://pmd.github.io/pmd-6.3.0/pmd_rules_jsp_security.html#nounsanitizedjspexpression)
 11. HTTP 응답분할
     - FindBugs
-        - [HTTP_RESPONSE_SPLITTING](https://find-sec-bugs.github.io/bugs.htm#HTTP_RESPONSE_SPLITTING)
-        - [HRS_REQUEST_PARAMETER_TO_HTTP_HEADER](http://findbugs.sourceforge.net/bugDescriptions.html#HRS_REQUEST_PARAMETER_TO_HTTP_HEADER)
+        - [HTTP_RESPONSE_SPLITTING [1]](https://find-sec-bugs.github.io/bugs.htm#HTTP_RESPONSE_SPLITTING)
+        - [HRS_REQUEST_PARAMETER_TO_HTTP_HEADER [2]](http://findbugs.sourceforge.net/bugDescriptions.html#HRS_REQUEST_PARAMETER_TO_HTTP_HEADER)
     - LAPSE+
-        - [Header Manipulation](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
-        - [HTTP Response Splitting](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Header Manipulation [2]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [HTTP Response Splitting [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 12. 정수형 오버플로우
 13. 보안기능 결정에 사용되는 부적절한 입력값
     - FindBugs
-        - [SERVLET_PARAMETER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_PARAMETER)
-        - [SERVLET_CONTENT_TYPE](https://find-sec-bugs.github.io/bugs.htm#SERVLET_CONTENT_TYPE)
-        - [SERVLET_SERVER_NAME](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SERVER_NAME)
-        - [SERVLET_SESSION_ID](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SESSION_ID)
-        - [SERVLET_QUERY_STRING](https://find-sec-bugs.github.io/bugs.htm#SERVLET_QUERY_STRING)
-        - [SERVLET_HEADER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER)
-        - [SERVLET_HEADER_REFERER](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_REFERER)
-        - [SERVLET_HEADER_USER_AGENT](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_USER_AGENT)
-        - [HTTP_PARAMETER_POLLUTION](https://find-sec-bugs.github.io/bugs.htm#HTTP_PARAMETER_POLLUTION)
+        - [SERVLET_PARAMETER [1]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_PARAMETER)
+        - [SERVLET_CONTENT_TYPE [2]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_CONTENT_TYPE)
+        - [SERVLET_SERVER_NAME [3]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SERVER_NAME)
+        - [SERVLET_SESSION_ID [4]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_SESSION_ID)
+        - [SERVLET_QUERY_STRING [5]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_QUERY_STRING)
+        - [SERVLET_HEADER [6]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER)
+        - [SERVLET_HEADER_REFERER [7]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_REFERER)
+        - [SERVLET_HEADER_USER_AGENT [8]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_USER_AGENT)
+        - [HTTP_PARAMETER_POLLUTION [9]](https://find-sec-bugs.github.io/bugs.htm#HTTP_PARAMETER_POLLUTION)
     - LAPSE+
-        - [Cookie Poisoning](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
-        - [Parameter Tampering](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Cookie Poisoning [10]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [Parameter Tampering [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - ["HttpServletRequest.getRequestedSessionId()" should not be used](https://rules.sonarsource.com/java/RSPEC-2254)
-        - [HTTP referers should not be relied on](https://rules.sonarsource.com/java/RSPEC-2089)
-        - [Untrusted data should not be stored in sessions](https://rules.sonarsource.com/java/RSPEC-3318)
+        - ["HttpServletRequest.getRequestedSessionId()" should not be used [4]](https://rules.sonarsource.com/java/RSPEC-2254)
+        - [HTTP referers should not be relied on [7]](https://rules.sonarsource.com/java/RSPEC-2089)
+        - [Untrusted data should not be stored in sessions [11]](https://rules.sonarsource.com/java/RSPEC-3318)
 14. 메모리 버퍼 오버플로우
 15. 포멧 스트링 삽입
     - FindBugs
-        - [FORMAT_STRING_MANIPULATION](https://find-sec-bugs.github.io/bugs.htm#FORMAT_STRING_MANIPULATION)
+        - [FORMAT_STRING_MANIPULATION [1]](https://find-sec-bugs.github.io/bugs.htm#FORMAT_STRING_MANIPULATION)
 16. 적절한 인증 없는 중요기능 허용
 17. 부적절한 인가
 18. 중요한 자원에 대한 잘못된 권한 설정
 19. 취약한 암호화 알고리즘 사용
     - FindBugs
-        - [WEAK_MESSAGE_DIGEST_MD5](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_MD5)
-        - [WEAK_MESSAGE_DIGEST_SHA1](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_SHA1)
-        - [SSL_CONTEXT](https://find-sec-bugs.github.io/bugs.htm#SSL_CONTEXT)
-        - [CUSTOM_MESSAGE_DIGEST](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_MESSAGE_DIGEST)
-        - [HAZELCAST_SYMMETRIC_ENCRYPTION](https://find-sec-bugs.github.io/bugs.htm#HAZELCAST_SYMMETRIC_ENCRYPTION)
-        - [NULL_CIPHER](https://find-sec-bugs.github.io/bugs.htm#NULL_CIPHER)
-        - [DES_USAGE](https://find-sec-bugs.github.io/bugs.htm#DES_USAGE)
-        - [TDES_USAGE](https://find-sec-bugs.github.io/bugs.htm#TDES_USAGE)
-        - [RSA_NO_PADDING](https://find-sec-bugs.github.io/bugs.htm#RSA_NO_PADDING)
-        - [ECB_MODE](https://find-sec-bugs.github.io/bugs.htm#ECB_MODE)
-        - [PADDING_ORACLE](https://find-sec-bugs.github.io/bugs.htm#PADDING_ORACLE)
-        - [ESAPI_ENCRYPTOR](https://find-sec-bugs.github.io/bugs.htm#ESAPI_ENCRYPTOR)
+        - [WEAK_MESSAGE_DIGEST_MD5 [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_MD5)
+        - [WEAK_MESSAGE_DIGEST_SHA1 [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_SHA1)
+        - [SSL_CONTEXT [3]](https://find-sec-bugs.github.io/bugs.htm#SSL_CONTEXT)
+        - [CUSTOM_MESSAGE_DIGEST [4]](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_MESSAGE_DIGEST)
+        - [HAZELCAST_SYMMETRIC_ENCRYPTION [5]](https://find-sec-bugs.github.io/bugs.htm#HAZELCAST_SYMMETRIC_ENCRYPTION)
+        - [NULL_CIPHER [6]](https://find-sec-bugs.github.io/bugs.htm#NULL_CIPHER)
+        - [DES_USAGE [7]](https://find-sec-bugs.github.io/bugs.htm#DES_USAGE)
+        - [TDES_USAGE [8]](https://find-sec-bugs.github.io/bugs.htm#TDES_USAGE)
+        - [RSA_NO_PADDING [9]](https://find-sec-bugs.github.io/bugs.htm#RSA_NO_PADDING)
+        - [ECB_MODE [10]](https://find-sec-bugs.github.io/bugs.htm#ECB_MODE)
+        - [PADDING_ORACLE [11]](https://find-sec-bugs.github.io/bugs.htm#PADDING_ORACLE)
+        - [ESAPI_ENCRYPTOR [12]](https://find-sec-bugs.github.io/bugs.htm#ESAPI_ENCRYPTOR)
     - SonarQube
-        - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used](https://rules.sonarsource.com/java/RSPEC-2278)
-        - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)](https://rules.sonarsource.com/java/RSPEC-2277)
-        - ["javax.crypto.NullCipher" should not be used for anything other than testing](https://rules.sonarsource.com/java/RSPEC-2258)
-        - [Only standard cryptographic algorithms should be used](https://rules.sonarsource.com/java/RSPEC-2257)
-        - [Pseudorandom number generators (PRNGs) should not be used in secure contexts](https://rules.sonarsource.com/java/RSPEC-2245)
-        - [SHA-1 and Message-Digest hash algorithms should not be used](https://rules.sonarsource.com/java/RSPEC-2070)
+        - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used [7]](https://rules.sonarsource.com/java/RSPEC-2278)
+        - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding) [13]](https://rules.sonarsource.com/java/RSPEC-2277)
+        - ["javax.crypto.NullCipher" should not be used for anything other than testing [6]](https://rules.sonarsource.com/java/RSPEC-2258)
+        - [Only standard cryptographic algorithms should be used [4]](https://rules.sonarsource.com/java/RSPEC-2257)
+        - [Pseudorandom number generators (PRNGs) should not be used in secure contexts [14]](https://rules.sonarsource.com/java/RSPEC-2245)
+        - [SHA-1 and Message-Digest hash algorithms should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2070)
 20. 중요정보 평문 저장
 21. 중요정보 평문 전송
     - FindBugs
