@@ -1,7 +1,7 @@
 # KISA GuidLine Bug Pattern
 1. SQL 삽입
     - FindBugs
-        - [CUSTOM_INJECTION](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_INJECTION)
+        - [CUSTOM_INJECTION[1]](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_INJECTION)
         - [SQL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION)
         - [SQL_INJECTION_TURBINE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_TURBINE)
         - [SQL_INJECTION_HIBERNATE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_HIBERNATE)
