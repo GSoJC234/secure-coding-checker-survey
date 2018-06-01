@@ -1,24 +1,24 @@
 # KISA GuidLine Bug Pattern
 1. SQL 삽입
     - FindBugs
-        - [CUSTOM_INJECTION[1]](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_INJECTION)
-        - [SQL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION)
-        - [SQL_INJECTION_TURBINE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_TURBINE)
-        - [SQL_INJECTION_HIBERNATE](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_HIBERNATE)
-        - [SQL_INJECTION_JDO](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDO)
-        - [SQL_INJECTION_JPA](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JPA)
-        - [SQL_INJECTION_SPRING_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC)
-        - [SQL_INJECTION_JDBC](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC)
-        - [SCALA_SQL_INJECTION_SLICK](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_SLICK)
-        - [SCALA_SQL_INJECTION_ANORM](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_ANORM)
-        - [SQL_INJECTION_ANDROID](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_ANDROID)
-        - [AWS_QUERY_INJECTION](https://find-sec-bugs.github.io/bugs.htm#AWS_QUERY_INJECTION)
-        - [SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE](http://findbugs.sourceforge.net/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE)
-        - [SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING](http://findbugs.sourceforge.net/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING)
+        - [CUSTOM_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#CUSTOM_INJECTION)
+        - [SQL_INJECTION [2]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION)
+        - [SQL_INJECTION_TURBINE [3]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_TURBINE)
+        - [SQL_INJECTION_HIBERNATE [4]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_HIBERNATE)
+        - [SQL_INJECTION_JDO [5]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDO)
+        - [SQL_INJECTION_JPA [6]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JPA)
+        - [SQL_INJECTION_SPRING_JDBC [7]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_SPRING_JDBC)
+        - [SQL_INJECTION_JDBC [8]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_JDBC)
+        - [SCALA_SQL_INJECTION_SLICK [9]](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_SLICK)
+        - [SCALA_SQL_INJECTION_ANORM [10]](https://find-sec-bugs.github.io/bugs.htm#SCALA_SQL_INJECTION_ANORM)
+        - [SQL_INJECTION_ANDROID [11]](https://find-sec-bugs.github.io/bugs.htm#SQL_INJECTION_ANDROID)
+        - [AWS_QUERY_INJECTION [12]](https://find-sec-bugs.github.io/bugs.htm#AWS_QUERY_INJECTION)
+        - [SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE [13]](http://findbugs.sourceforge.net/bugDescriptions.html#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE)
+        - [SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING [14]](http://findbugs.sourceforge.net/bugDescriptions.html#SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING)
     - LAPSE+
-        - [SQL Injection](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
+        - [SQL Injection [2]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
-        - [SQL binding mechanisms should be used](https://rules.sonarsource.com/java/RSPEC-2077)
+        - [SQL binding mechanisms should be used [14]](https://rules.sonarsource.com/java/RSPEC-2077)
 2. 경로조작 및 자원삽입
     - FindBugs
         - [PATH_TRAVERSAL_IN](https://find-sec-bugs.github.io/bugs.htm#PATH_TRAVERSAL_IN)
