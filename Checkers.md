@@ -115,11 +115,11 @@
         - [HTTP Response Splitting [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
 12. 정수형 오버플로우 [Extended]
     - FindBugs
-        - [BAD_HEXA_CONVERSION [1]]()
+        - [BAD_HEXA_CONVERSION [1]](https://find-sec-bugs.github.io/bugs.htm#BAD_HEXA_CONVERSION)
     - PMD
-        - [BadComparison [2]]()
+        - [BadComparison [2]](https://pmd.github.io/pmd-6.4.0/pmd_rules_java_errorprone.html#badcomparison)
     - SonarQube
-        - ["Double.longBitsToDouble" should not be used for "int" [3]]()
+        - ["Double.longBitsToDouble" should not be used for "int" [3]](https://rules.sonarsource.com/java/RSPEC-2127)
     
 13. 보안기능 결정에 사용되는 부적절한 입력값 [Extended]
     - FindBugs
