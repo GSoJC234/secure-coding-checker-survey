@@ -401,7 +401,7 @@
         - [WEAK_TRUST_MANAGER [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
         - [WEAK_HOSTNAME_VERIFIER [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
         - [STATIC_IV [3]](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
-        - [UNSAFE_HASH_EQUALS [4]](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
+        - [UNSAFE_HASH_EQUALS [???]](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
 2. 프레임워크의 고유한 프로그래밍 규칙 위반
     - FindBugs
         - [JAXWS_ENDPOINT [1]](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
@@ -432,16 +432,16 @@
         - [The value returned from a stream read should be checked [???]](https://rules.sonarsource.com/java/RSPEC-2674)
 4. 코드 삽입
     - FindBugs
-        - [SCRIPT_ENGINE_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
-        - [SPEL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#SPEL_INJECTION)
-        - [EL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#EL_INJECTION)
-        - [OGNL_INJECTION](https://find-sec-bugs.github.io/bugs.htm#OGNL_INJECTION)
-        - [JSP_SPRING_EVAL](https://find-sec-bugs.github.io/bugs.htm#JSP_SPRING_EVAL)
-        - [OBJECT_DESERIALIZATION](https://find-sec-bugs.github.io/bugs.htm#OBJECT_DESERIALIZATION)
-        - [JACKSON_UNSAFE_DESERIALIZATION](https://find-sec-bugs.github.io/bugs.htm#JACKSON_UNSAFE_DESERIALIZATION)
-        - [DESERIALIZATION_GADGET](https://find-sec-bugs.github.io/bugs.htm#DESERIALIZATION_GADGET)
-        - [TEMPLATE_INJECTION_VELOCITY](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_VELOCITY)
-        - [TEMPLATE_INJECTION_FREEMARKER](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_FREEMARKER)
+        - [SCRIPT_ENGINE_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
+        - [SPEL_INJECTION [2]](https://find-sec-bugs.github.io/bugs.htm#SPEL_INJECTION)
+        - [EL_INJECTION [3]](https://find-sec-bugs.github.io/bugs.htm#EL_INJECTION)
+        - [OGNL_INJECTION [4]](https://find-sec-bugs.github.io/bugs.htm#OGNL_INJECTION)
+        - [JSP_SPRING_EVAL [5]](https://find-sec-bugs.github.io/bugs.htm#JSP_SPRING_EVAL)
+        - [OBJECT_DESERIALIZATION [6]](https://find-sec-bugs.github.io/bugs.htm#OBJECT_DESERIALIZATION)
+        - [JACKSON_UNSAFE_DESERIALIZATION [7]](https://find-sec-bugs.github.io/bugs.htm#JACKSON_UNSAFE_DESERIALIZATION)
+        - [DESERIALIZATION_GADGET [8]](https://find-sec-bugs.github.io/bugs.htm#DESERIALIZATION_GADGET)
+        - [TEMPLATE_INJECTION_VELOCITY [9]](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_VELOCITY)
+        - [TEMPLATE_INJECTION_FREEMARKER [10]](https://find-sec-bugs.github.io/bugs.htm#TEMPLATE_INJECTION_FREEMARKER)
 5. 로그 삽입
     - FindBugs
         - [SEAM_LOG_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#SEAM_LOG_INJECTION)
