@@ -98,12 +98,14 @@
         - [LDAP Injection [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
     - SonarQube
         - [Values passed to LDAP queries should be sanitized [1]](https://rules.sonarsource.com/java/RSPEC-2078)
-10. 크로스사이트 요청 위조
+10. 크로스사이트 요청 위조 [Extended]
     - FindBugs
         - [SPRING_CSRF_PROTECTION_DISABLED [1]](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_PROTECTION_DISABLED)
         - [SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING [2]](https://find-sec-bugs.github.io/bugs.htm#SPRING_CSRF_UNRESTRICTED_REQUEST_MAPPING)
+        - [SCALA_PLAY_SSRF [3]](https://find-sec-bugs.github.io/bugs.htm#SCALA_PLAY_SSRF)
+        - [URLCONNECTION_SSRF_FD [4]](https://find-sec-bugs.github.io/bugs.htm#URLCONNECTION_SSRF_FD)
     - PMD
-        - [NoUnsanitizedJSPExpression [3]](https://pmd.github.io/pmd-6.3.0/pmd_rules_jsp_security.html#nounsanitizedjspexpression)
+        - [NoUnsanitizedJSPExpression [5]](https://pmd.github.io/pmd-6.3.0/pmd_rules_jsp_security.html#nounsanitizedjspexpression)
 11. HTTP 응답분할
     - FindBugs
         - [HTTP_RESPONSE_SPLITTING [1]](https://find-sec-bugs.github.io/bugs.htm#HTTP_RESPONSE_SPLITTING)
@@ -111,8 +113,15 @@
     - LAPSE+
         - [Header Manipulation [2]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [HTTP Response Splitting [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
-12. 정수형 오버플로우
-13. 보안기능 결정에 사용되는 부적절한 입력값
+12. 정수형 오버플로우 [Extended]
+    - FindBugs
+        - [BAD_HEXA_CONVERSION [1]]()
+    - PMD
+        - [BadComparison [2]]()
+    - SonarQube
+        - ["Double.longBitsToDouble" should not be used for "int" [3]]()
+    
+13. 보안기능 결정에 사용되는 부적절한 입력값 [Extended]
     - FindBugs
         - [SERVLET_PARAMETER [1]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_PARAMETER)
         - [SERVLET_CONTENT_TYPE [2]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_CONTENT_TYPE)
@@ -123,6 +132,7 @@
         - [SERVLET_HEADER_REFERER [7]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_REFERER)
         - [SERVLET_HEADER_USER_AGENT [8]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_USER_AGENT)
         - [HTTP_PARAMETER_POLLUTION [9]](https://find-sec-bugs.github.io/bugs.htm#HTTP_PARAMETER_POLLUTION)
+        - [TRUST_BOUNDARY_VIOLATION [12]]https://find-sec-bugs.github.io/bugs.htm#TRUST_BOUNDARY_VIOLATION)
     - LAPSE+
         - [Cookie Poisoning [10]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [Parameter Tampering [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
@@ -137,7 +147,7 @@
 16. 적절한 인증 없는 중요기능 허용
 17. 부적절한 인가
 18. 중요한 자원에 대한 잘못된 권한 설정
-19. 취약한 암호화 알고리즘 사용
+19. 취약한 암호화 알고리즘 사용 [Extended]
     - FindBugs
         - [WEAK_MESSAGE_DIGEST_MD5 [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_MD5)
         - [WEAK_MESSAGE_DIGEST_SHA1 [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_SHA1)
@@ -151,6 +161,7 @@
         - [ECB_MODE [10]](https://find-sec-bugs.github.io/bugs.htm#ECB_MODE)
         - [PADDING_ORACLE [11]](https://find-sec-bugs.github.io/bugs.htm#PADDING_ORACLE)
         - [ESAPI_ENCRYPTOR [12]](https://find-sec-bugs.github.io/bugs.htm#ESAPI_ENCRYPTOR)
+        - [CIPHER_INTEGRITY [15]](https://find-sec-bugs.github.io/bugs.htm#CIPHER_INTEGRITY )
     - SonarQube
         - [Neither DES (Data Encryption Standard) nor DESede (3DES) should be used [7]](https://rules.sonarsource.com/java/RSPEC-2278)
         - [Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding) [13]](https://rules.sonarsource.com/java/RSPEC-2277)
@@ -159,13 +170,14 @@
         - [Pseudorandom number generators (PRNGs) should not be used in secure contexts [14]](https://rules.sonarsource.com/java/RSPEC-2245)
         - [SHA-1 and Message-Digest hash algorithms should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2070)
 20. 중요정보 평문 저장
-21. 중요정보 평문 전송
+21. 중요정보 평문 전송 [Extended]
     - FindBugs
         - [DEFAULT_HTTP_CLIENT [1]](https://find-sec-bugs.github.io/bugs.htm#DEFAULT_HTTP_CLIENT)
         - [UNENCRYPTED_SOCKET [2]](https://find-sec-bugs.github.io/bugs.htm#UNENCRYPTED_SOCKET)
         - [UNENCRYPTED_SERVER_SOCKET [3]](https://find-sec-bugs.github.io/bugs.htm#UNENCRYPTED_SERVER_SOCKET)
         - [INSECURE_COOKIE [4]](https://find-sec-bugs.github.io/bugs.htm#INSECURE_COOKIE)
         - [INSECURE_SMTP_SSL [5]](https://find-sec-bugs.github.io/bugs.htm#INSECURE_SMTP_SSL)
+        - [URL_REWRITING [6]](https://find-sec-bugs.github.io/bugs.htm#URL_REWRITING)
     - SonarQube
         - [Cookies should be “secure” [4]](https://rules.sonarsource.com/java/RSPEC-2092)
 22. 하드코드된 비밀번호
@@ -186,9 +198,11 @@
     - SonarQube
         - ["SecureRandom" seeds should not be predictable [3]](https://rules.sonarsource.com/java/RSPEC-4347)
 25. 취약한 비밀번호 사용
-26. 하드코드된 비밀번호 사용
+26. 하드코드된 암호화 키
     - FindBugs
         - [HARD_CODE_KEY [1]](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_KEY)
+    - SonarQube
+        - [IP addresses should not be hardcoded [2]]()
 27. 사용자 하드디스크에 저장되는 쿠키를 통한 정보노출
     - FindBugs
         - [COOKIE_USAGE [1]](https://find-sec-bugs.github.io/bugs.htm#COOKIE_USAGE)
