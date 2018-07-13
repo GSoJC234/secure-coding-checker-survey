@@ -358,6 +358,8 @@
     - FindBugs
         - [ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH [1]](http://findbugs.sourceforge.net/bugDescriptions.html#ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH)
         - [OS_OPEN_STREAM_EXCEPTION_PATH [2]](http://findbugs.sourceforge.net/bugDescriptions.html#OS_OPEN_STREAM_EXCEPTION_PATH)
+        - [ODR_OPEN_DATABASE_RESOURCE [1]](http://findbugs.sourceforge.net/bugDescriptions.html#ODR_OPEN_DATABASE_RESOURCE)
+        - [OS_OPEN_STREAM [2]](http://findbugs.sourceforge.net/bugDescriptions.html#OS_OPEN_STREAM)
     - PMD
         - [CloseResource [1]](https://pmd.github.io/pmd-6.4.0/pmd_rules_java_errorprone.html#closeresource)
     - SonarQube
