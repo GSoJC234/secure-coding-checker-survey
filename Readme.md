@@ -132,7 +132,7 @@
         - [SERVLET_HEADER_REFERER [7]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_REFERER)
         - [SERVLET_HEADER_USER_AGENT [8]](https://find-sec-bugs.github.io/bugs.htm#SERVLET_HEADER_USER_AGENT)
         - [HTTP_PARAMETER_POLLUTION [9]](https://find-sec-bugs.github.io/bugs.htm#HTTP_PARAMETER_POLLUTION)
-        - [TRUST_BOUNDARY_VIOLATION [12]]https://find-sec-bugs.github.io/bugs.htm#TRUST_BOUNDARY_VIOLATION)
+        - [TRUST_BOUNDARY_VIOLATION [12]](https://find-sec-bugs.github.io/bugs.htm#TRUST_BOUNDARY_VIOLATION)
     - LAPSE+
         - [Cookie Poisoning [10]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
         - [Parameter Tampering [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
@@ -198,7 +198,7 @@
     - SonarQube
         - ["SecureRandom" seeds should not be predictable [3]](https://rules.sonarsource.com/java/RSPEC-4347)
 25. 취약한 비밀번호 사용
-26. 하드코드된 암호화 키
+26. 하드코드된 암호화 키 [Extended]
     - FindBugs
         - [HARD_CODE_KEY [1]](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_KEY)
     - SonarQube
