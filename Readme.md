@@ -341,6 +341,7 @@
         - [NP_STORE_INTO_NONNULL_FIELD [20]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_STORE_INTO_NONNULL_FIELD)
         - [NP_UNWRITTEN_FIELD [21]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_UNWRITTEN_FIELD)
         - [NP_SYNC_AND_NULL_CHECK_FIELD [22]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
+        - [NP_NULL_PARAM_DEREF_ALL_TARGETS_DANGEROUS [23]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_NULL_PARAM_DEREF_ALL_TARGETS_DANGEROUS)
     - PMD
         - [BrokenNullCheck [9]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#brokennullcheck)
         - [MisplacedNullCheck [9]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#misplacednullcheck)
