@@ -356,7 +356,6 @@
         - [Short-circuit logic should be used to prevent null pointer dereferences in conditionals [5]](https://rules.sonarsource.com/java/RSPEC-1697)
 38. 부적절한 자원 해제
     - FindBugs
-        - [NP_SYNC_AND_NULL_CHECK_FIELD [???]](http://findbugs.sourceforge.net/bugDescriptions.html#NP_SYNC_AND_NULL_CHECK_FIELD)
         - [ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH [1]](http://findbugs.sourceforge.net/bugDescriptions.html#ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH)
         - [OS_OPEN_STREAM_EXCEPTION_PATH [2]](http://findbugs.sourceforge.net/bugDescriptions.html#OS_OPEN_STREAM_EXCEPTION_PATH)
     - PMD
@@ -415,7 +414,6 @@
         - [WEAK_TRUST_MANAGER [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
         - [WEAK_HOSTNAME_VERIFIER [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
         - [STATIC_IV [3]](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
-        - [UNSAFE_HASH_EQUALS [???]](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
 2. 프레임워크의 고유한 프로그래밍 규칙 위반
     - FindBugs
         - [JAXWS_ENDPOINT [1]](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
@@ -443,7 +441,6 @@
         - [ReDOS [1]](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
     - SonarQube
         - [Inappropriate regular expressions should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2639)
-        - [The value returned from a stream read should be checked [???]](https://rules.sonarsource.com/java/RSPEC-2674)
 4. 코드 삽입
     - FindBugs
         - [SCRIPT_ENGINE_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
