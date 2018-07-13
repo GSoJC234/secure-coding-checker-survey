@@ -444,6 +444,7 @@
         - [ReDOS [1]](https://find-sec-bugs.github.io/bugs.htm#ReDOS)
     - SonarQube
         - [Inappropriate regular expressions should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2639)
+        - [The value returned from a stream read should be checked [3]](https://rules.sonarsource.com/java/RSPEC-2674)
 4. 코드 삽입
     - FindBugs
         - [SCRIPT_ENGINE_INJECTION [1]](https://find-sec-bugs.github.io/bugs.htm#SCRIPT_ENGINE_INJECTION)
