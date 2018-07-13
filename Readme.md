@@ -416,6 +416,7 @@
         - [WEAK_TRUST_MANAGER [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_TRUST_MANAGER)
         - [WEAK_HOSTNAME_VERIFIER [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_HOSTNAME_VERIFIER)
         - [STATIC_IV [3]](https://find-sec-bugs.github.io/bugs.htm#STATIC_IV)
+        - [UNSAFE_HASH_EQUALS [4]](https://find-sec-bugs.github.io/bugs.htm#UNSAFE_HASH_EQUALS)
 2. 프레임워크의 고유한 프로그래밍 규칙 위반
     - FindBugs
         - [JAXWS_ENDPOINT [1]](https://find-sec-bugs.github.io/bugs.htm#JAXWS_ENDPOINT)
