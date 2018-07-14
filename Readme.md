@@ -274,9 +274,9 @@
         - ["getClass" should not be used for synchronization [51]](https://rules.sonarsource.com/java/RSPEC-3067)
         - [Getters and setters should be synchronized in pairs [52]](https://rules.sonarsource.com/java/RSPEC-2886)
         - [Non-thread-safe fields should not be static [53]](https://rules.sonarsource.com/java/RSPEC-2885)
-        - [Blocks should be synchronized on "private final" fields [57]](https://rules.sonarsource.com/java/RSPEC-2445)
-        - [".equals()" should not be used to test the values of "Atomic" classes [58]](https://rules.sonarsource.com/java/RSPEC-2204)
-        - [Synchronization should not be based on Strings or boxed primitives [59]](https://rules.sonarsource.com/java/RSPEC-1860)
+        - [Blocks should be synchronized on "private final" fields [54]](https://rules.sonarsource.com/java/RSPEC-2445)
+        - [".equals()" should not be used to test the values of "Atomic" classes [55]](https://rules.sonarsource.com/java/RSPEC-2204)
+        - [Synchronization should not be based on Strings or boxed primitives [56]](https://rules.sonarsource.com/java/RSPEC-1860)
 32. 종료되지 않은 반복문 또는 재귀함수
     - FindBugs
         - [IL_CONTAINER_ADDED_TO_ITSELF [1]](http://findbugs.sourceforge.net/bugDescriptions.html#IL_CONTAINER_ADDED_TO_ITSELF)
