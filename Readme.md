@@ -140,13 +140,13 @@
         - ["HttpServletRequest.getRequestedSessionId()" should not be used [4]](https://rules.sonarsource.com/java/RSPEC-2254)
         - [HTTP referers should not be relied on [7]](https://rules.sonarsource.com/java/RSPEC-2089)
         - [Untrusted data should not be stored in sessions [11]](https://rules.sonarsource.com/java/RSPEC-3318)
-15. 포멧 스트링 삽입
+14. 포멧 스트링 삽입
     - FindBugs
         - [FORMAT_STRING_MANIPULATION [1]](https://find-sec-bugs.github.io/bugs.htm#FORMAT_STRING_MANIPULATION)
-16. 적절한 인증 없는 중요기능 허용
-17. 부적절한 인가
-18. 중요한 자원에 대한 잘못된 권한 설정
-19. 취약한 암호화 알고리즘 사용 [Extended]
+15. 적절한 인증 없는 중요기능 허용
+16. 부적절한 인가
+17. 중요한 자원에 대한 잘못된 권한 설정
+18. 취약한 암호화 알고리즘 사용 [Extended]
     - FindBugs
         - [WEAK_MESSAGE_DIGEST_MD5 [1]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_MD5)
         - [WEAK_MESSAGE_DIGEST_SHA1 [2]](https://find-sec-bugs.github.io/bugs.htm#WEAK_MESSAGE_DIGEST_SHA1)
@@ -168,8 +168,8 @@
         - [Only standard cryptographic algorithms should be used [4]](https://rules.sonarsource.com/java/RSPEC-2257)
         - [Pseudorandom number generators (PRNGs) should not be used in secure contexts [14]](https://rules.sonarsource.com/java/RSPEC-2245)
         - [SHA-1 and Message-Digest hash algorithms should not be used [2]](https://rules.sonarsource.com/java/RSPEC-2070)
-20. 중요정보 평문 저장
-21. 중요정보 평문 전송 [Extended]
+19. 중요정보 평문 저장
+20. 중요정보 평문 전송 [Extended]
     - FindBugs
         - [DEFAULT_HTTP_CLIENT [1]](https://find-sec-bugs.github.io/bugs.htm#DEFAULT_HTTP_CLIENT)
         - [UNENCRYPTED_SOCKET [2]](https://find-sec-bugs.github.io/bugs.htm#UNENCRYPTED_SOCKET)
@@ -179,43 +179,43 @@
         - [URL_REWRITING [6]](https://find-sec-bugs.github.io/bugs.htm#URL_REWRITING)
     - SonarQube
         - [Cookies should be “secure” [4]](https://rules.sonarsource.com/java/RSPEC-2092)
-22. 하드코드된 비밀번호
+21. 하드코드된 비밀번호
     - FindBugs
         - [HARD_CODE_PASSWORD [1]](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_PASSWORD)
         - [DMI_CONSTANT_DB_PASSWORD [2]](http://findbugs.sourceforge.net/bugDescriptions.html#DMI_CONSTANT_DB_PASSWORD)
         - [DMI_EMPTY_DB_PASSWORD [3]](http://findbugs.sourceforge.net/bugDescriptions.html#DMI_EMPTY_DB_PASSWORD)
     - SonarQube
         - [Credentials should not be hard-coded [2]](https://rules.sonarsource.com/java/RSPEC-2068)
-23. 충분하지 않은 키 길이 사용
+22. 충분하지 않은 키 길이 사용
     - FindBugs
         - [BLOWFISH_KEY_SIZE [1]](https://find-sec-bugs.github.io/bugs.htm#BLOWFISH_KEY_SIZE)
         - [RSA_KEY_SIZE [2]](https://find-sec-bugs.github.io/bugs.htm#RSA_KEY_SIZE)
-24. 적절하지 않은 난수값 사용
+23. 적절하지 않은 난수값 사용
     - FindBugs
         - [PREDICTABLE_RANDOM [1]](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM)
         - [PREDICTABLE_RANDOM_SCALA [2]](https://find-sec-bugs.github.io/bugs.htm#PREDICTABLE_RANDOM_SCALA)
     - SonarQube
         - ["SecureRandom" seeds should not be predictable [3]](https://rules.sonarsource.com/java/RSPEC-4347)
-25. 취약한 비밀번호 사용
-26. 하드코드된 암호화 키 [Extended]
+24. 취약한 비밀번호 사용
+25. 하드코드된 암호화 키 [Extended]
     - FindBugs
         - [HARD_CODE_KEY [1]](https://find-sec-bugs.github.io/bugs.htm#HARD_CODE_KEY)
     - SonarQube
         - [IP addresses should not be hardcoded [2]]()
-27. 사용자 하드디스크에 저장되는 쿠키를 통한 정보노출
+26. 사용자 하드디스크에 저장되는 쿠키를 통한 정보노출
     - FindBugs
         - [COOKIE_USAGE [1]](https://find-sec-bugs.github.io/bugs.htm#COOKIE_USAGE)
         - [COOKIE_PERSISTENT [2]](https://find-sec-bugs.github.io/bugs.htm#COOKIE_PERSISTENT)
         - [HRS_REQUEST_PARAMETER_TO_COOKIE [3]](http://findbugs.sourceforge.net/bugDescriptions.html#HRS_REQUEST_PARAMETER_TO_COOKIE)
-28. 주석문 안에 포함된 시스템 주요정보
-29. 솔트 없이 일방향 해쉬함수 사용
-30. 무결성 검사 없는 코드 다운로드
+27. 주석문 안에 포함된 시스템 주요정보
+28. 솔트 없이 일방향 해쉬함수 사용
+29. 무결성 검사 없는 코드 다운로드
     - FindBugs
         - [JSP_INCLUDE [1]](https://find-sec-bugs.github.io/bugs.htm#JSP_INCLUDE)
     - SonarQube
         - [Classes should not be loaded dynamically [2]](https://rules.sonarsource.com/java/RSPEC-2658)
-31. 반복된 인증시도 제한 기능 부재
-32. 경쟁조건: 검사 시점과 사용 시점(TOCTOU)
+30. 반복된 인증시도 제한 기능 부재
+31. 경쟁조건: 검사 시점과 사용 시점(TOCTOU)
     - FindBugs
         - [AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION [1]](http://findbugs.sourceforge.net/bugDescriptions.html#AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION)
         - [DC_DOUBLECHECK [2]](http://findbugs.sourceforge.net/bugDescriptions.html#DC_DOUBLECHECK)
@@ -277,7 +277,7 @@
         - [Blocks should be synchronized on "private final" fields [57]](https://rules.sonarsource.com/java/RSPEC-2445)
         - [".equals()" should not be used to test the values of "Atomic" classes [58]](https://rules.sonarsource.com/java/RSPEC-2204)
         - [Synchronization should not be based on Strings or boxed primitives [59]](https://rules.sonarsource.com/java/RSPEC-1860)
-33. 종료되지 않은 반복문 또는 재귀함수
+32. 종료되지 않은 반복문 또는 재귀함수
     - FindBugs
         - [IL_CONTAINER_ADDED_TO_ITSELF [1]](http://findbugs.sourceforge.net/bugDescriptions.html#IL_CONTAINER_ADDED_TO_ITSELF)
         - [IL_INFINITE_LOOP [2]](http://findbugs.sourceforge.net/bugDescriptions.html#IL_INFINITE_LOOP)
@@ -288,10 +288,10 @@
         - [Loops should not be infinite [2]](https://rules.sonarsource.com/java/RSPEC-2189)
         - [Double-checked locking should not be used [5]](https://rules.sonarsource.com/java/RSPEC-2168)
         - [Locks should be released [6]](https://rules.sonarsource.com/java/RSPEC-2222)
-34. 오류메시지를 통한 정보노출
+33. 오류메시지를 통한 정보노출
     - SonarQube
         - [Throwable.printStackTrace(...) should not be called [1]](https://rules.sonarsource.com/java/RSPEC-1148)
-35. 오류 상황 대응 부재
+34. 오류 상황 대응 부재
     - PMD
         - [AvoidInstanceofChecksInCatchClause [1]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#avoidinstanceofchecksincatchclause)
         - [AvoidLiteralsInIfCondition [2]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition)
@@ -305,7 +305,7 @@
         - ["Iterator.next()" methods should throw "NoSuchElementException" [9]](https://rules.sonarsource.com/java/RSPEC-2272)
         - [Return values should not be ignored when they contain the operation status code [10]](https://rules.sonarsource.com/java/RSPEC-899)
         - [Exception should not be created without being thrown [11]](https://rules.sonarsource.com/java/RSPEC-3984)
-36. 부적절한 예외 처리
+35. 부적절한 예외 처리
     - FindBugs
         - [DE_MIGHT_DROP [1]](http://findbugs.sourceforge.net/bugDescriptions.html#DE_MIGHT_DROP)
         - [DE_MIGHT_IGNORE [2]](http://findbugs.sourceforge.net/bugDescriptions.html#DE_MIGHT_IGNORE)
@@ -316,7 +316,7 @@
         - [DoNotThrowExceptionInFinally [4]](https://pmd.github.io/pmd-6.3.0/pmd_rules_java_errorprone.html#donotthrowexceptioninfinally)
     - SonarQube
         - ["InterruptedException" should not be ignored [2]](https://rules.sonarsource.com/java/RSPEC-2142)
-37. 잘못된 세션에 의한 데이터 정보노출
+36. 잘못된 세션에 의한 데이터 정보노출
     - FindBugs
         - [MSF_MUTABLE_SERVLET_FIELD [1]](http://findbugs.sourceforge.net/bugDescriptions.html#MSF_MUTABLE_SERVLET_FIELD)
     - PMD
@@ -324,21 +324,21 @@
     - SonarQube
         - [Members of Spring components should be injected [3]](https://rules.sonarsource.com/java/RSPEC-3749)
         - [Servlets should not have mutable instance fields [1]](https://rules.sonarsource.com/java/RSPEC-2226)
-38. 제거되지 않고 남은 디버그 코드
+37. 제거되지 않고 남은 디버그 코드
     - SonarQube
         - [Web applications should not have a "main" method [1]](https://rules.sonarsource.com/java/RSPEC-2653)
-39. 시스템 데이터 정보노출
-40. Public 메서드로부터 반환된 Private 배열
+38. 시스템 데이터 정보노출
+39. Public 메서드로부터 반환된 Private 배열
     - FindBugs
         - [EI_EXPOSE_REP [1]](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP)
         - [MS_EXPOSE_REP [2]](http://findbugs.sourceforge.net/bugDescriptions.html#MS_EXPOSE_REP)
     - SonarQube
         - [Mutable members should not be stored or returned directly [1]](https://rules.sonarsource.com/java/RSPEC-2384)
-41. Private 배열에 Public 데이터 할당
+40. Private 배열에 Public 데이터 할당
     - FindBugs
         - [EI_EXPOSE_REP2 [1]](http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2)
-42. DNS lookup에 의존한 보안결정
-43. 취약한 API 
+41. DNS lookup에 의존한 보안결정
+42. 취약한 API 
     - FindBugs
         - [DM_EXIT [1]](http://findbugs.sourceforge.net/bugDescriptions.html#DM_EXIT)
         - [DM_RUN_FINALIZERS_ON_EXIT [2]](http://findbugs.sourceforge.net/bugDescriptions.html#DM_RUN_FINALIZERS_ON_EXIT)
