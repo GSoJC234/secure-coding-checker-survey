@@ -140,7 +140,6 @@
         - ["HttpServletRequest.getRequestedSessionId()" should not be used [4]](https://rules.sonarsource.com/java/RSPEC-2254)
         - [HTTP referers should not be relied on [7]](https://rules.sonarsource.com/java/RSPEC-2089)
         - [Untrusted data should not be stored in sessions [11]](https://rules.sonarsource.com/java/RSPEC-3318)
-14. 메모리 버퍼 오버플로우
 15. 포멧 스트링 삽입
     - FindBugs
         - [FORMAT_STRING_MANIPULATION [1]](https://find-sec-bugs.github.io/bugs.htm#FORMAT_STRING_MANIPULATION)
