@@ -33,8 +33,6 @@
         - [PT_RELATIVE_PATH_TRAVERSAL [10]](http://findbugs.sourceforge.net/bugDescriptions.html#PT_RELATIVE_PATH_TRAVERSAL)
     - LAPSE+
         - [Path Traversal [1]](https://www.owasp.org/index.php/OWASP_LAPSE_Project)
-    - SonarQube
-        - [Dependencies should not have "system" scope [11]](https://rules.sonarsource.com/java/RSPEC-3422)
 3. 크로스사이트 스크립트
     - FindBugs
         - [XSS_REQUEST_WRAPPER [1]](https://find-sec-bugs.github.io/bugs.htm#XSS_REQUEST_WRAPPER)
